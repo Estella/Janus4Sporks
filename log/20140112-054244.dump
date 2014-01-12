@@ -1,0 +1,1907 @@
+$gnicks = {
+            'janus:1' => findobj( do{\(my $o = 1)}, 'Nick' )
+          };
+$chanlist = {};
+$nets = {
+          'janus' => findobj( do{\(my $o = 2)}, 'Interface' )
+        };
+$ijnets = {};
+$pending = {};
+$listen = {};
+$modules = [
+             'Modules::Signals',
+             'Account',
+             'Commands::Identify',
+             'EventDump',
+             'Actions',
+             'Log::File',
+             'Util::Ban',
+             'Util::Crypto',
+             'Listener',
+             'Network',
+             'Server::TS6',
+             'Commands::Link',
+             'Setting',
+             'Commands::Save',
+             'Log::Base',
+             'Commands::ClientUtils',
+             'Commands::Verify',
+             'SocketHandler',
+             'Commands::Eval',
+             'Commands::SvsAccount',
+             'Commands::Core',
+             'Conffile',
+             'Connection',
+             'Log::Channel',
+             'RemoteJanus',
+             'Nick',
+             'Commands::List',
+             'Commands::Upgrade',
+             'Janus',
+             'Commands::ClientLink',
+             'Commands::Account',
+             'Link',
+             'Log',
+             'Event',
+             'Commands::Debug',
+             'Commands::ForceTag',
+             'Modes',
+             'Commands::ShowSource',
+             'Snapshot',
+             'Modules::Ban',
+             'Commands::Set',
+             'Modules::KeepMode',
+             'Interface',
+             'Commands::ShowItem',
+             'Persist',
+             'Commands::Modes',
+             'Util::Exec',
+             'Commands::Network'
+           ];
+$states = {
+            'Account' => {
+                           'accounts' => {
+                                           'admin' => {
+                                                        'acl' => '*'
+                                                      }
+                                         },
+                           'roles' => {
+                                        'admin' => 'account setpass info/nick dump verify role forcetag globalban',
+                                        'allconf' => 'setall/channel setall/network',
+                                        'botop' => 'clink forceid botnick',
+                                        'netop' => 'set/network set/channel autoconnect netsplit xline',
+                                        'oper' => 'oper ban rehash link',
+                                        'owner' => 'reload unload up-git up-tar upgrade die reboot restart',
+                                        'superadmin' => 'salink eval',
+                                        'user' => 'user'
+                                      }
+                         },
+            'Link' => {
+                        'request' => {
+                                       'aster' => {
+                                                    '#asterirc' => {
+                                                                     'mask' => 'j4jackj!jack@172.218.203.54',
+                                                                     'mode' => 1,
+                                                                     'time' => 1389496363
+                                                                   },
+                                                    '#beard' => {
+                                                                  'ack' => {},
+                                                                  'mask' => 'j4jackj!jack@172.218.203.54',
+                                                                  'mode' => 1,
+                                                                  'time' => 1389496432
+                                                                },
+                                                    '#emi' => {
+                                                                'ack' => {},
+                                                                'mask' => 'j4jackj!jack@172.218.203.54',
+                                                                'mode' => 1,
+                                                                'time' => 1389496478
+                                                              }
+                                                  },
+                                       'beardnet' => {
+                                                       '#beard' => {
+                                                                     'chan' => '#beard',
+                                                                     'mask' => 'j4jackj!jack@172.218.203.54',
+                                                                     'net' => 'aster',
+                                                                     'time' => 1389496450
+                                                                   }
+                                                     },
+                                       'eminet' => {
+                                                     '#emi' => {
+                                                                 'chan' => '#emi',
+                                                                 'mask' => 'j4jackj!jack@172.218.203.54',
+                                                                 'net' => 'aster',
+                                                                 'time' => 1389496532
+                                                               }
+                                                   },
+                                       'fn' => {
+                                                 '##debauchery' => {
+                                                                     'chan' => '#emi',
+                                                                     'mask' => 'j4jackj!jack@172.218.203.54',
+                                                                     'net' => 'aster',
+                                                                     'time' => 1389496491
+                                                                   }
+                                               }
+                                     }
+                      },
+            'Modules::KeepMode' => {
+                                     'saved' => {
+                                                  'aster#asterirc' => {
+                                                                        'mustjoin' => 1,
+                                                                        'permanent' => 1,
+                                                                        'survey' => 1,
+                                                                        'topic' => 1
+                                                                      },
+                                                  'aster#beard' => {
+                                                                     'mustjoin' => 1,
+                                                                     'topic' => 1
+                                                                   },
+                                                  'aster#emi' => {
+                                                                   'mustjoin' => 1,
+                                                                   'topic' => 1
+                                                                 }
+                                                }
+                                   },
+            'Setting' => {
+                           'value' => {
+                                        'tagsep aster' => '_',
+                                        'tagsep plex' => '_'
+                                      }
+                         },
+            'Util::Ban' => {
+                             'all' => do{my $o}
+                           }
+          };
+$states->{'Util::Ban'}{'all'} = \&Util::Ban::save_all;
+$static = {
+            '$Janus::global' => findobj( do{\(my $o = 2)}, 'Janus' ),
+            '$Janus::sha1' => findobj( do{\(my $o = findobj( do{\(my $o = 14077888)}, 'SHAPtr' ))}, 'Digest::SHA' ),
+            '$Log::fcount' => 40,
+            '$Log::ftime' => 1389505364,
+            '%Conffile::netconf' => {
+                                      'LISTEN:8005' => {
+                                                         'addr' => '8005'
+                                                       },
+                                      'LOG:log/%Y-%m-%d-%H:%M:%S' => {
+                                                                       'closeact' => 'gzip',
+                                                                       'filter' => 'debug info warn err audit command debug_in info_in warn_in err_in hook_err',
+                                                                       'name' => 'log/%Y-%m-%d-%H:%M:%S',
+                                                                       'rotate' => '86400',
+                                                                       'type' => 'File'
+                                                                     },
+                                      'LOG:net#logchan' => {
+                                                             'filter' => 'audit',
+                                                             'name' => 'net#logchan',
+                                                             'type' => 'Channel'
+                                                           },
+                                      'aster' => {
+                                                   'autoconnect' => '1',
+                                                   'id' => 'aster',
+                                                   'ircd' => 'charybdis',
+                                                   'linkaddr' => '127.0.0.1',
+                                                   'linkname' => 'hub.janus',
+                                                   'linkport' => '8009',
+                                                   'linktype' => 'plain',
+                                                   'netname' => 'AsterIRC',
+                                                   'recvpass' => 'link',
+                                                   'sendpass' => 'link',
+                                                   'type' => 'TS6'
+                                                 },
+                                      'beardnet' => {
+                                                      'autoconnect' => '1',
+                                                      'id' => 'beardnet',
+                                                      'linkaddr' => 'irc.beard.cc',
+                                                      'linkport' => '6667',
+                                                      'linktype' => 'plain',
+                                                      'netname' => 'BeardNET',
+                                                      'nick' => 'Aster',
+                                                      'type' => 'ClientBot'
+                                                    },
+                                      'chst' => {
+                                                  'autoconnect' => '1',
+                                                  'id' => 'chst',
+                                                  'linkaddr' => '216.155.142.204',
+                                                  'linkname' => 'hub.janus',
+                                                  'linkport' => '8005',
+                                                  'linktype' => 'plain',
+                                                  'netname' => 'ChatStay',
+                                                  'recvpass' => 'link',
+                                                  'sendpass' => 'link',
+                                                  'type' => 'Inspircd_1200'
+                                                },
+                                      'eminet' => {
+                                                    'autoconnect' => '1',
+                                                    'id' => 'eminet',
+                                                    'linkaddr' => 'irc.eminet.us',
+                                                    'linkport' => '6667',
+                                                    'linktype' => 'plain',
+                                                    'netname' => 'EmiNET',
+                                                    'nick' => 'Aster',
+                                                    'type' => 'ClientBot'
+                                                  },
+                                      'fn' => {
+                                                'autoconnect' => '1',
+                                                'id' => 'fn',
+                                                'linkaddr' => 'irc.freenode.net',
+                                                'linkport' => '6667',
+                                                'linktype' => 'plain',
+                                                'netname' => 'Freenode',
+                                                'nick' => 'AsterBot',
+                                                'type' => 'ClientBot'
+                                              },
+                                      'modules' => {
+                                                     'Account' => 1,
+                                                     'Actions' => 1,
+                                                     'Commands::Account' => 1,
+                                                     'Commands::ClientLink' => 1,
+                                                     'Commands::ClientUtils' => 1,
+                                                     'Commands::Core' => 2,
+                                                     'Commands::Debug' => 1,
+                                                     'Commands::Eval' => 1,
+                                                     'Commands::ForceTag' => 1,
+                                                     'Commands::Identify' => 1,
+                                                     'Commands::Link' => 1,
+                                                     'Commands::List' => 1,
+                                                     'Commands::Modes' => 1,
+                                                     'Commands::Network' => 1,
+                                                     'Commands::Save' => 1,
+                                                     'Commands::Set' => 1,
+                                                     'Commands::ShowItem' => 1,
+                                                     'Commands::ShowSource' => 1,
+                                                     'Commands::SvsAccount' => 1,
+                                                     'Commands::Upgrade' => 1,
+                                                     'Commands::Verify' => 1,
+                                                     'Interface' => 1,
+                                                     'Modules::Ban' => '',
+                                                     'Modules::KeepMode' => '',
+                                                     'Modules::Signals' => '',
+                                                     'Setting' => 1
+                                                   },
+                                      'plex' => {
+                                                  'autoconnect' => '1',
+                                                  'id' => 'plex',
+                                                  'linkaddr' => '127.0.0.2',
+                                                  'linkname' => 'hub.janus',
+                                                  'linkport' => '17667',
+                                                  'linktype' => 'plain',
+                                                  'netname' => 'AsterIRC-Plex',
+                                                  'recvpass' => 'link',
+                                                  'sendpass' => 'link',
+                                                  'type' => 'TS6_Plexus'
+                                                },
+                                      'qnet-bot' => {
+                                                      'autoconnect' => '1',
+                                                      'id' => 'qnet-bot',
+                                                      'linkaddr' => '66.225.225.66',
+                                                      'linkport' => '6667',
+                                                      'linktype' => 'plain',
+                                                      'netname' => 'Quakenet via relay bot',
+                                                      'nick' => 'Asterelay',
+                                                      'type' => 'ClientBot'
+                                                    },
+                                      'set' => {
+                                                 'datefmt' => '%Y%m%d-%H%M%S',
+                                                 'janus_nick' => 'Janus',
+                                                 'lmode' => 'link',
+                                                 'name' => 'asterirc',
+                                                 'password' => 'torrefaction78',
+                                                 'runmode' => 'uproc',
+                                                 'save' => 'janus.dat',
+                                                 'ssl_certfile' => 'janus-cert.pem',
+                                                 'ssl_keyfile' => 'janus-key.pem'
+                                               },
+                                      'undernet' => {
+                                                      'autoconnect' => '1',
+                                                      'id' => 'undernet',
+                                                      'linkaddr' => 'irc.undernet.org',
+                                                      'linkport' => '6667',
+                                                      'linktype' => 'plain',
+                                                      'netname' => 'Undernet',
+                                                      'nick' => 'AsterBot',
+                                                      'type' => 'ClientBot'
+                                                    }
+                                    },
+            '%Event::commands' => {
+                                    'about' => {
+                                                 'class' => 'Commands::Core',
+                                                 'cmd' => 'about',
+                                                 'code' => sub { "DUMMY" },
+                                                 'help' => 'Provides information about janus',
+                                                 'section' => 'Info'
+                                               },
+                                    'accept' => {
+                                                  'api' => 'act =src =replyto =tochan chan net',
+                                                  'class' => 'Commands::Link',
+                                                  'cmd' => 'accept',
+                                                  'code' => sub { "DUMMY" },
+                                                  'details' => [
+                                                                 'Links a channel to a network that has previously requested a link.',
+                                                                 'This command is useful after changing a channel ACL, or if the link',
+                                                                 'request was made before the destination channel was created.'
+                                                               ],
+                                                  'help' => 'Links a channel to a network that has previously requested a link',
+                                                  'section' => 'Channel',
+                                                  'syntax' => '<channel> <network>'
+                                                },
+                                    'account' => {
+                                                   'acl' => 'account',
+                                                   'class' => 'Commands::Account',
+                                                   'cmd' => 'account',
+                                                   'code' => sub { "DUMMY" },
+                                                   'details' => [
+                                                                  'ACCOUNT LIST                Lists all accounts',
+                                                                  'ACCOUNT SHOW account        Shows details on an account',
+                                                                  'ACCOUNT CREATE account      Creates a new (local or remote) account',
+                                                                  'ACCOUNT DELETE account      Deletes an account',
+                                                                  'ACCOUNT GRANT account role  Grants an account access to the given role',
+                                                                  'ACCOUNT REVOKE account role Revokes an account\'s access to the given role'
+                                                                ],
+                                                   'help' => 'Manages janus accounts',
+                                                   'section' => 'Account',
+                                                   'syntax' => '<action> <account> [<args...>]'
+                                                 },
+                                    'autoconnect' => {
+                                                       'acl' => 'autoconnect',
+                                                       'api' => '=src =replyto $ ?#',
+                                                       'class' => 'Commands::Network',
+                                                       'cmd' => 'autoconnect',
+                                                       'code' => sub { "DUMMY" },
+                                                       'details' => [
+                                                                      'Enables or disables the automatic reconnection that janus makes to a network.',
+                                                                      'A rehash will reread the value for the network from the janus configuration',
+                                                                      'Specify backoff=0 to disable autoconnect',
+                                                                      'Specify backoff=1 to autoconnect quickly',
+                                                                      'Higher backoff values will increase the time between connection attempts',
+                                                                      'If backoff is not specified, displays the current state'
+                                                                    ],
+                                                       'help' => 'Enable or disable autoconnect on a network',
+                                                       'section' => 'Network',
+                                                       'syntax' => '<network> <backoff>'
+                                                     },
+                                    'ban' => {
+                                               'acl' => 'ban',
+                                               'aclchk' => 'globalban',
+                                               'api' => '=src =replyto $ @',
+                                               'class' => 'Modules::Ban',
+                                               'cmd' => 'ban',
+                                               'code' => sub { "DUMMY" },
+                                               'details' => [
+                                                              'Bans are matched on connects to shared channels, and generate autokicks.',
+                                                              ' BAN LIST               List all active janus bans',
+                                                              ' BAN ADD expr           Add a ban and applies it to current users',
+                                                              ' BAN NADD expr          Add a ban (applied to new users only)',
+                                                              ' BAN DEL index index... Remove bans by index in the ban list',
+                                                              'expr consists of one or more of the following:',
+                                                              '  (nick|ident|host|name|from) ? Matches the given item',
+                                                              '  /perl regex/                  Regex with implicit ^$, matched against nick!ident@host',
+                                                              '  x/perl regex/                 same, but against nick!ident@host\\nsrc\\tgecos',
+                                                              '  to (network|*)                Network(s) on which this ban is applied',
+                                                              '  for 2w4d12h5m2s               Time the ban is applied (0=perm, default=1 week)',
+                                                              '  reason "reason here"          Reason the ban was added',
+                                                              'Examples:',
+                                                              '  ban add host spam.botz.com for 3w reason "annoying bots"',
+                                                              '  ban add nick *|XP|* name "IP *" for 0 from evilnet reason "botnets not welcome"',
+                                                              '  ban add x/.*\\|XP\\|.*\\nevilnet\\tIP .*/ for 0 reason "same as above"',
+                                                              '  ban add /([a-z]{4}[0-9]{2})!\\1@.*/ reason bot-nick'
+                                                            ],
+                                               'help' => 'Manages Janus bans (bans remote users)',
+                                               'section' => 'Network'
+                                             },
+                                    'botnick' => {
+                                                   'acl' => 'botnick',
+                                                   'api' => '=replyto localnet $',
+                                                   'class' => 'Commands::ClientUtils',
+                                                   'cmd' => 'botnick',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Changes the nick of a ClientBot',
+                                                   'section' => 'Network',
+                                                   'syntax' => '<network> <newnick>'
+                                                 },
+                                    'clink' => {
+                                                 'acl' => 'clink',
+                                                 'api' => '=src =replyto localnet $ ?$ ?$',
+                                                 'class' => 'Commands::ClientLink',
+                                                 'cmd' => 'clink',
+                                                 'code' => sub { "DUMMY" },
+                                                 'help' => 'Requests a link from a clientbot network',
+                                                 'section' => 'Channel',
+                                                 'syntax' => '<network> <channel> [<dest-net>] [<dest-chan>]'
+                                               },
+                                    'clinkrm' => {
+                                                   'acl' => 'clink',
+                                                   'api' => '=src =replyto localnet $',
+                                                   'class' => 'Commands::ClientLink',
+                                                   'cmd' => 'clinkrm',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Removes a clientbot channel link',
+                                                   'section' => 'Channel',
+                                                   'syntax' => '<network> <channel>'
+                                                 },
+                                    'create' => {
+                                                  'api' => '=src =replyto localchan',
+                                                  'class' => 'Commands::Link',
+                                                  'cmd' => 'create',
+                                                  'code' => sub { "DUMMY" },
+                                                  'help' => 'Creates a channel that other networks can link to',
+                                                  'section' => 'Channel',
+                                                  'syntax' => '<channel>'
+                                                },
+                                    'delink' => {
+                                                  'api' => '=src =replyto chan localdefnet ?$',
+                                                  'class' => 'Commands::Link',
+                                                  'cmd' => 'delink',
+                                                  'code' => sub { "DUMMY" },
+                                                  'details' => [
+                                                                 'The home newtwork must specify a network to delink, or use DESTROY',
+                                                                 'Other networks can only delink themselves from the channel'
+                                                               ],
+                                                  'help' => 'Delinks a channel',
+                                                  'section' => 'Channel',
+                                                  'syntax' => '<channel> [<network>]'
+                                                },
+                                    'destroy' => {
+                                                   'api' => '=src =replyto localchan',
+                                                   'class' => 'Commands::Link',
+                                                   'cmd' => 'destroy',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Removes a channel that other networks can link to',
+                                                   'section' => 'Channel',
+                                                   'syntax' => '<channel>'
+                                                 },
+                                    'die' => {
+                                               'acl' => 'die',
+                                               'class' => 'Commands::Network',
+                                               'cmd' => 'die',
+                                               'code' => sub { "DUMMY" },
+                                               'help' => 'Kill the janus server; does NOT restart it',
+                                               'section' => 'Admin'
+                                             },
+                                    'dump' => {
+                                                'acl' => 'dump',
+                                                'class' => 'Commands::Debug',
+                                                'cmd' => 'dump',
+                                                'code' => sub { "DUMMY" },
+                                                'help' => 'Dumps current janus internal state to a file',
+                                                'section' => 'Admin'
+                                              },
+                                    'eval' => {
+                                                'acl' => 'eval',
+                                                'api' => '=src =replyto =raw *',
+                                                'class' => 'Commands::Eval',
+                                                'cmd' => 'eval',
+                                                'code' => sub { "DUMMY" },
+                                                'help' => 'Evaluates a perl expression. DANGEROUS',
+                                                'section' => 'Admin'
+                                              },
+                                    'forceid' => {
+                                                   'acl' => 'forceid',
+                                                   'api' => '=replyto localnet',
+                                                   'class' => 'Commands::ClientUtils',
+                                                   'cmd' => 'forceid',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Forcibly tries to identify a ClientBot to services',
+                                                   'section' => 'Network',
+                                                   'syntax' => '<network>'
+                                                 },
+                                    'forcetag' => {
+                                                    'acl' => 'forcetag',
+                                                    'api' => '=src =replyto nick localdefnet',
+                                                    'class' => 'Commands::ForceTag',
+                                                    'cmd' => 'forcetag',
+                                                    'code' => sub { "DUMMY" },
+                                                    'help' => 'Forces a user to use a tagged nick on a network',
+                                                    'section' => 'Network',
+                                                    'syntax' => '<nick> [<network>]'
+                                                  },
+                                    'help' => {
+                                                'api' => '=src =replyto ?$',
+                                                'class' => 'Commands::Core',
+                                                'cmd' => 'help',
+                                                'code' => sub { "DUMMY" },
+                                                'help' => 'Help on janus commands. See "help help" for use.',
+                                                'section' => 'Info',
+                                                'syntax' => '[<command>|ALL]'
+                                              },
+                                    'identify' => {
+                                                    'class' => 'Commands::Identify',
+                                                    'cmd' => 'identify',
+                                                    'code' => sub { "DUMMY" },
+                                                    'details' => [
+                                                                   'Your nick is the default username'
+                                                                 ],
+                                                    'help' => 'Identify yourself to janus',
+                                                    'secret' => 1,
+                                                    'section' => 'Account',
+                                                    'syntax' => '[<username>] <password>'
+                                                  },
+                                    'link' => {
+                                                'api' => '=src =replyto localchan net ?$',
+                                                'class' => 'Commands::Link',
+                                                'cmd' => 'link',
+                                                'code' => sub { "DUMMY" },
+                                                'details' => [
+                                                               'The remote network must use the CREATE command to',
+                                                               'share a channel before links to that channel will be accepted'
+                                                             ],
+                                                'help' => 'Link to a remote network\'s shared channel',
+                                                'section' => 'Channel',
+                                                'syntax' => '<channel> <network> [<remote-channel>]'
+                                              },
+                                    'linkacl' => {
+                                                   'api' => '=src =replyto $ localchan ?$',
+                                                   'class' => 'Commands::Link',
+                                                   'cmd' => 'linkacl',
+                                                   'code' => sub { "DUMMY" },
+                                                   'details' => [
+                                                                  'LINKACL LIST #channel               Lists ACL entries for the channel',
+                                                                  'LINKACL ALLOW #channel net          Allows a network access to link',
+                                                                  'LINKACL DENY #channel net           Denies a network access to link',
+                                                                  'LINKACL DEL #channel net            Removes a network\'s ACL entry',
+                                                                  'LINKACL DEFAULT #channel allow/deny Sets the default access for networks'
+                                                                ],
+                                                   'help' => 'Manages access control for shared channels',
+                                                   'section' => 'Channel',
+                                                   'syntax' => '<action> <channel> [...]'
+                                                 },
+                                    'linked' => {
+                                                  'class' => 'Commands::Network',
+                                                  'cmd' => 'linked',
+                                                  'code' => sub { "DUMMY" },
+                                                  'help' => 'Shows a list of the linked networks and channels',
+                                                  'section' => 'Info'
+                                                },
+                                    'list' => {
+                                                'api' => '=src =replyto',
+                                                'class' => 'Commands::List',
+                                                'cmd' => 'list',
+                                                'code' => sub { "DUMMY" },
+                                                'help' => 'List channels available for linking',
+                                                'section' => 'Channel'
+                                              },
+                                    'listmodes' => {
+                                                     'api' => '=replyto localdefnet ?#',
+                                                     'class' => 'Commands::Modes',
+                                                     'cmd' => 'listmodes',
+                                                     'code' => sub { "DUMMY" },
+                                                     'help' => 'Shows a list of the long modes\' names',
+                                                     'section' => 'Info',
+                                                     'syntax' => '[<network>] [<width>]'
+                                                   },
+                                    'listroles' => {
+                                                     'api' => '=replyto',
+                                                     'class' => 'Commands::Account',
+                                                     'cmd' => 'listroles',
+                                                     'code' => sub { "DUMMY" },
+                                                     'help' => 'Lists all janus access roles',
+                                                     'section' => 'Info'
+                                                   },
+                                    'listsettings' => {
+                                                        'api' => '=replyto',
+                                                        'class' => 'Commands::Set',
+                                                        'cmd' => 'listsettings',
+                                                        'code' => sub { "DUMMY" },
+                                                        'help' => 'Shows the list of janus settings',
+                                                        'section' => 'Info'
+                                                      },
+                                    'modinfo' => {
+                                                   'api' => '=src =replyto $',
+                                                   'class' => 'Commands::Core',
+                                                   'cmd' => 'modinfo',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Provides information about a module',
+                                                   'section' => 'Info',
+                                                   'syntax' => '<module>'
+                                                 },
+                                    'modules' => {
+                                                   'api' => '=src =replyto ?$',
+                                                   'class' => 'Commands::Core',
+                                                   'cmd' => 'modules',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Version information on all modules loaded by janus',
+                                                   'section' => 'Info',
+                                                   'syntax' => '[all|janus|other|sha][columns]'
+                                                 },
+                                    'netsplit' => {
+                                                    'acl' => 'netsplit',
+                                                    'api' => '=src =replyto $',
+                                                    'class' => 'Commands::Network',
+                                                    'cmd' => 'netsplit',
+                                                    'code' => sub { "DUMMY" },
+                                                    'help' => 'Split a network',
+                                                    'section' => 'Network',
+                                                    'syntax' => '<network>'
+                                                  },
+                                    'rehash' => {
+                                                  'acl' => 'rehash',
+                                                  'class' => 'Commands::Network',
+                                                  'cmd' => 'rehash',
+                                                  'code' => sub { "DUMMY" },
+                                                  'help' => 'Reload the config and attempt to reconnect to split servers',
+                                                  'section' => 'Admin'
+                                                },
+                                    'reload' => {
+                                                  'acl' => 'reload',
+                                                  'api' => '=src =replyto $',
+                                                  'class' => 'Commands::Core',
+                                                  'cmd' => 'reload',
+                                                  'code' => sub { "DUMMY" },
+                                                  'details' => [
+                                                                 'WARNING: Reloading core modules may introduce bugs because of persistance',
+                                                                 'of old code by the perl interpreter.'
+                                                               ],
+                                                  'help' => 'Load or reload a module, live.',
+                                                  'section' => 'Admin',
+                                                  'syntax' => '<module>'
+                                                },
+                                    'restart' => {
+                                                   'acl' => 'restart',
+                                                   'class' => 'Commands::Network',
+                                                   'cmd' => 'restart',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Restart the janus server',
+                                                   'section' => 'Admin'
+                                                 },
+                                    'role' => {
+                                                'acl' => 'role',
+                                                'api' => '=src =replyto $ $ @',
+                                                'class' => 'Commands::Account',
+                                                'cmd' => 'role',
+                                                'code' => sub { "DUMMY" },
+                                                'details' => [
+                                                               'ROLE ADD role acl...  Adds ACLs to a role',
+                                                               'ROLE DEL role acl...  Removes ACLs from a role',
+                                                               'ROLE DESTROY role     Removes a role'
+                                                             ],
+                                                'help' => 'Manages janus account roles',
+                                                'section' => 'Account',
+                                                'syntax' => '<action> <role> [<args...>]'
+                                              },
+                                    'save' => {
+                                                'acl' => 'oper',
+                                                'api' => '=replyto',
+                                                'class' => 'Commands::Save',
+                                                'cmd' => 'save',
+                                                'code' => sub { "DUMMY" },
+                                                'help' => 'Save janus state to filesystem',
+                                                'section' => 'Admin'
+                                              },
+                                    'set' => {
+                                               'api' => 'act =src =replyto $ $ ?$',
+                                               'class' => 'Commands::Set',
+                                               'cmd' => 'set',
+                                               'code' => sub { "DUMMY" },
+                                               'details' => [
+                                                              'Changes the requested setting of the network or channel',
+                                                              'See the LISTSETTINGS command for the available settings'
+                                                            ],
+                                               'help' => 'Change network or channel settings',
+                                               'syntax' => '<network|channel> <setting> [<value>]'
+                                             },
+                                    'setmode' => {
+                                                   'api' => '=src =replyto homenet chan @',
+                                                   'class' => 'Commands::Modes',
+                                                   'cmd' => 'setmode',
+                                                   'code' => sub { "DUMMY" },
+                                                   'details' => [
+                                                                  'Modes: +modetoset -modeunset +mode=value +mode=nick ++multistate',
+                                                                  'For a list of modes, see the LISTMODES command.',
+                                                                  'For multistate modes, use multiple + signs to set a higher level'
+                                                                ],
+                                                   'help' => 'Sets a mode by its long name',
+                                                   'section' => 'Channel',
+                                                   'syntax' => '<channel> <modes...>'
+                                                 },
+                                    'setpass' => {
+                                                   'acl' => 'user',
+                                                   'aclchk' => 'setpass',
+                                                   'class' => 'Commands::Identify',
+                                                   'cmd' => 'setpass',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Set your janus identify password',
+                                                   'secret' => 1,
+                                                   'section' => 'Account',
+                                                   'syntax' => '[<user>] <password>'
+                                                 },
+                                    'showchan' => {
+                                                    'api' => '=src =replyto ?chan ?$',
+                                                    'class' => 'Commands::ShowItem',
+                                                    'cmd' => 'showchan',
+                                                    'code' => sub { "DUMMY" },
+                                                    'help' => 'Shows internal details on a channel',
+                                                    'section' => 'Info',
+                                                    'syntax' => '<chan|gid>'
+                                                  },
+                                    'showmode' => {
+                                                    'api' => '=src =replyto chan defnet',
+                                                    'class' => 'Commands::Modes',
+                                                    'cmd' => 'showmode',
+                                                    'code' => sub { "DUMMY" },
+                                                    'help' => 'Shows the current intended modes of a channel',
+                                                    'section' => 'Channel',
+                                                    'syntax' => '<channel>'
+                                                  },
+                                    'shownet' => {
+                                                   'api' => '=src =replyto $',
+                                                   'class' => 'Commands::ShowItem',
+                                                   'cmd' => 'shownet',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Shows internal details on a network',
+                                                   'section' => 'Info',
+                                                   'syntax' => '<network|gid>'
+                                                 },
+                                    'shownick' => {
+                                                    'aclchk' => 'info/nick',
+                                                    'api' => '=src =replyto ?nick ?$',
+                                                    'class' => 'Commands::ShowItem',
+                                                    'cmd' => 'shownick',
+                                                    'code' => sub { "DUMMY" },
+                                                    'help' => 'Shows internal details on a nick',
+                                                    'section' => 'Info',
+                                                    'syntax' => '<nick|gid>'
+                                                  },
+                                    'showsource' => {
+                                                      'api' => '=src =replyto $ $',
+                                                      'class' => 'Commands::ShowSource',
+                                                      'cmd' => 'showsource',
+                                                      'code' => sub { "DUMMY" },
+                                                      'help' => 'Shows lines of the janus source',
+                                                      'section' => 'Info',
+                                                      'syntax' => '<module> <line>-<line>'
+                                                    },
+                                    'svsaccount' => {
+                                                      'acl' => 'user',
+                                                      'class' => 'Commands::SvsAccount',
+                                                      'cmd' => 'svsaccount',
+                                                      'code' => sub { "DUMMY" },
+                                                      'details' => [
+                                                                     'svsaccount add       Authorizes your current login for your current account',
+                                                                     'svsaccount list      Lists the accounts allowed for your account',
+                                                                     'svsaccount del acct  Removes a services account from your access list',
+                                                                     'You must have already identified to an account to use this command'
+                                                                   ],
+                                                      'help' => 'Associates a services account with a janus account',
+                                                      'section' => 'Account'
+                                                    },
+                                    'testdie' => {
+                                                   'acl' => 'dump',
+                                                   'class' => 'Commands::Debug',
+                                                   'cmd' => 'testdie',
+                                                   'code' => sub { "DUMMY" }
+                                                 },
+                                    'unload' => {
+                                                  'acl' => 'unload',
+                                                  'api' => '=src =replyto $',
+                                                  'class' => 'Commands::Core',
+                                                  'cmd' => 'unload',
+                                                  'code' => sub { "DUMMY" },
+                                                  'help' => 'Unload the hooks registered by a module',
+                                                  'section' => 'Admin',
+                                                  'syntax' => '<module>'
+                                                },
+                                    'up-git' => {
+                                                  'acl' => 'up-git',
+                                                  'class' => 'Commands::Upgrade',
+                                                  'cmd' => 'up-git',
+                                                  'code' => sub { "DUMMY" },
+                                                  'help' => 'Runs "git pull"',
+                                                  'section' => 'Admin'
+                                                },
+                                    'up-tar' => {
+                                                  'acl' => 'up-tar',
+                                                  'class' => 'Commands::Upgrade',
+                                                  'cmd' => 'up-tar',
+                                                  'code' => sub { "DUMMY" },
+                                                  'help' => 'Downloads and extracts an updated version of janus via gitweb',
+                                                  'section' => 'Admin'
+                                                },
+                                    'upgrade' => {
+                                                   'acl' => 'upgrade',
+                                                   'class' => 'Commands::Upgrade',
+                                                   'cmd' => 'upgrade',
+                                                   'code' => sub { "DUMMY" },
+                                                   'help' => 'Upgrades all modules loaded by janus',
+                                                   'section' => 'Admin',
+                                                   'syntax' => '[force]'
+                                                 },
+                                    'verify' => {
+                                                  'acl' => 'verify',
+                                                  'class' => 'Commands::Verify',
+                                                  'cmd' => 'verify',
+                                                  'code' => \&Commands::Verify::verify,
+                                                  'help' => 'Verifies janus internal state',
+                                                  'section' => 'Admin'
+                                                }
+                                  },
+            '%Event::hook_chk' => {
+                                    'INIT' => [
+                                                sub { "DUMMY" }
+                                              ],
+                                    'MODLOAD' => [
+                                                   sub { "DUMMY" }
+                                                 ],
+                                    'NETLINK' => [
+                                                   $static->{'%Event::hook_chk'}{'INIT'}[0]
+                                                 ],
+                                    'NEWNICK' => [
+                                                   $static->{'%Event::hook_chk'}{'INIT'}[0]
+                                                 ],
+                                    'RUN' => [
+                                               $static->{'%Event::hook_chk'}{'INIT'}[0]
+                                             ]
+                                  },
+            '%Event::hook_mod' => {
+                                    'ACCOUNT/add' => {
+                                                       'Account' => sub { "DUMMY" }
+                                                     },
+                                    'ACCOUNT/del' => {
+                                                       'Account' => sub { "DUMMY" },
+                                                       'Commands::SvsAccount' => sub { "DUMMY" }
+                                                     },
+                                    'ALL/die' => {
+                                                   'Commands::Debug' => sub { "DUMMY" },
+                                                   'Event' => sub { "DUMMY" }
+                                                 },
+                                    'ALL/send' => {
+                                                    'Event' => \&Event::_send
+                                                  },
+                                    'ALL/validate' => {
+                                                        'Actions' => $static->{'%Event::hook_chk'}{'INIT'}[0]
+                                                      },
+                                    'CHANLINK/act' => {
+                                                        'Modules::KeepMode' => sub { "DUMMY" }
+                                                      },
+                                    'CONNECT/act' => {
+                                                       'Nick' => sub { "DUMMY" }
+                                                     },
+                                    'CONNECT/check' => {
+                                                         'Nick' => sub { "DUMMY" },
+                                                         'Util::Ban' => sub { "DUMMY" }
+                                                       },
+                                    'DELINK/act' => {
+                                                      'Link' => sub { "DUMMY" }
+                                                    },
+                                    'INFO/Account' => {
+                                                        'Commands::Account' => sub { "DUMMY" }
+                                                      },
+                                    'INFO/Channel' => {
+                                                        'Commands::ShowItem' => sub { "DUMMY" }
+                                                      },
+                                    'INFO/Network' => {
+                                                        'Commands::ShowItem' => sub { "DUMMY" }
+                                                      },
+                                    'INFO/Nick' => {
+                                                     'Commands::ShowItem' => sub { "DUMMY" }
+                                                   },
+                                    'INIT/act' => {
+                                                    'Interface' => sub { "DUMMY" },
+                                                    'RemoteJanus' => sub { "DUMMY" }
+                                                  },
+                                    'INVITE/parse' => {
+                                                        'Interface' => sub { "DUMMY" }
+                                                      },
+                                    'JLINKED/act' => {
+                                                       'Link' => sub { "DUMMY" }
+                                                     },
+                                    'JNETLINK/act' => {
+                                                        'Janus' => sub { "DUMMY" }
+                                                      },
+                                    'JNETLINK/check' => {
+                                                          'RemoteJanus' => sub { "DUMMY" }
+                                                        },
+                                    'JNETSPLIT/act' => {
+                                                         'Janus' => sub { "DUMMY" }
+                                                       },
+                                    'JNETSPLIT/check' => {
+                                                           'SocketHandler' => sub { "DUMMY" }
+                                                         },
+                                    'JOIN/act' => {
+                                                    'Nick' => sub { "DUMMY" }
+                                                  },
+                                    'KICK/act:-1' => {
+                                                       'Interface' => sub { "DUMMY" }
+                                                     },
+                                    'KICK/cleanup' => {
+                                                        'Nick' => sub { "DUMMY" }
+                                                      },
+                                    'KILL/act' => {
+                                                    'Nick' => sub { "DUMMY" }
+                                                  },
+                                    'KILL/check' => {
+                                                      'Interface' => sub { "DUMMY" }
+                                                    },
+                                    'KILL/cleanup' => {
+                                                        'Nick' => sub { "DUMMY" }
+                                                      },
+                                    'LINKED/act' => {
+                                                      'Link' => sub { "DUMMY" }
+                                                    },
+                                    'LINKED/check' => {
+                                                        'Network' => sub { "DUMMY" }
+                                                      },
+                                    'LINKOFFER/act' => {
+                                                         'Link' => sub { "DUMMY" }
+                                                       },
+                                    'LINKREQ/act' => {
+                                                       'Link' => sub { "DUMMY" }
+                                                     },
+                                    'MODE/cleanup' => {
+                                                        'Modules::KeepMode' => sub { "DUMMY" }
+                                                      },
+                                    'MODLOAD/act' => {
+                                                       'Janus' => sub { "DUMMY" }
+                                                     },
+                                    'MODLOAD/check' => {
+                                                         'Janus' => $static->{'%Event::hook_chk'}{'MODLOAD'}[0]
+                                                       },
+                                    'MODRELOAD/act' => {
+                                                         'Janus' => sub { "DUMMY" }
+                                                       },
+                                    'MODRELOAD/act:-1' => {
+                                                            'Event' => sub { "DUMMY" }
+                                                          },
+                                    'MODRELOAD/check' => {
+                                                           'Janus' => sub { "DUMMY" }
+                                                         },
+                                    'MODUNLOAD/act' => {
+                                                         'Event' => sub { "DUMMY" },
+                                                         'Janus' => sub { "DUMMY" }
+                                                       },
+                                    'MSG/parse' => {
+                                                     'Interface' => \&Interface::pmsg
+                                                   },
+                                    'NETLINK/act' => {
+                                                       'Interface' => sub { "DUMMY" },
+                                                       'Janus' => sub { "DUMMY" },
+                                                       'Link' => sub { "DUMMY" }
+                                                     },
+                                    'NETSPLIT/act' => {
+                                                        'Janus' => sub { "DUMMY" },
+                                                        'Network' => sub { "DUMMY" },
+                                                        'Nick' => sub { "DUMMY" },
+                                                        'SocketHandler' => sub { "DUMMY" }
+                                                      },
+                                    'NETSPLIT/parse' => {
+                                                          'Janus' => sub { "DUMMY" }
+                                                        },
+                                    'NEWNICK/act' => {
+                                                       'Commands::SvsAccount' => sub { "DUMMY" },
+                                                       'Nick' => sub { "DUMMY" }
+                                                     },
+                                    'NICK/act' => {
+                                                    'Nick' => sub { "DUMMY" }
+                                                  },
+                                    'NICK/cleanup' => {
+                                                        'Nick' => sub { "DUMMY" }
+                                                      },
+                                    'NICKINFO/act' => {
+                                                        'Nick' => sub { "DUMMY" }
+                                                      },
+                                    'NICKINFO/act:1' => {
+                                                          'Commands::SvsAccount' => sub { "DUMMY" }
+                                                        },
+                                    'PART/cleanup' => {
+                                                        'Nick' => sub { "DUMMY" }
+                                                      },
+                                    'POISON/cleanup' => {
+                                                          'Janus' => sub { "DUMMY" }
+                                                        },
+                                    'POISON/parse' => {
+                                                        'Janus' => sub { "DUMMY" }
+                                                      },
+                                    'QUIT/cleanup' => {
+                                                        'Nick' => sub { "DUMMY" }
+                                                      },
+                                    'RECONNECT/act' => {
+                                                         'Nick' => sub { "DUMMY" }
+                                                       },
+                                    'REHASH/act' => {
+                                                      'Conffile' => sub { "DUMMY" }
+                                                    },
+                                    'REMOTECALL/act' => {
+                                                          'Event' => sub { "DUMMY" }
+                                                        },
+                                    'RESTORE/act' => {
+                                                       'Conffile' => sub { "DUMMY" }
+                                                     },
+                                    'RUN/act' => {
+                                                   'Conffile' => sub { "DUMMY" }
+                                                 },
+                                    'UMODE/act' => {
+                                                     'Nick' => sub { "DUMMY" }
+                                                   },
+                                    'WHOIS/parse' => {
+                                                       'Interface' => sub { "DUMMY" }
+                                                     }
+                                  },
+            '%Event::hook_run' => {
+                                    'ALL/die' => [
+                                                   $static->{'%Event::hook_mod'}{'ALL/die'}{'Commands::Debug'},
+                                                   $static->{'%Event::hook_mod'}{'ALL/die'}{'Event'}
+                                                 ],
+                                    'ALL/module_read' => [],
+                                    'INIT' => [
+                                                $static->{'%Event::hook_mod'}{'INIT/act'}{'RemoteJanus'},
+                                                $static->{'%Event::hook_mod'}{'INIT/act'}{'Interface'},
+                                                \&Event::_send
+                                              ],
+                                    'MODLOAD' => [
+                                                   $static->{'%Event::hook_mod'}{'MODLOAD/act'}{'Janus'},
+                                                   \&Event::_send
+                                                 ],
+                                    'NETLINK' => [
+                                                   $static->{'%Event::hook_mod'}{'NETLINK/act'}{'Janus'},
+                                                   $static->{'%Event::hook_mod'}{'NETLINK/act'}{'Interface'},
+                                                   $static->{'%Event::hook_mod'}{'NETLINK/act'}{'Link'},
+                                                   \&Event::_send
+                                                 ],
+                                    'NEWNICK' => [
+                                                   $static->{'%Event::hook_mod'}{'NEWNICK/act'}{'Nick'},
+                                                   $static->{'%Event::hook_mod'}{'NEWNICK/act'}{'Commands::SvsAccount'},
+                                                   \&Event::_send
+                                                 ],
+                                    'RUN' => [
+                                               $static->{'%Event::hook_mod'}{'RUN/act'}{'Conffile'},
+                                               \&Event::_send
+                                             ]
+                                  },
+            '%Event::settings' => {
+                                    'ban_time' => {
+                                                    'class' => 'Modules::Ban',
+                                                    'default' => '1w',
+                                                    'help' => 'Default length of janus ban',
+                                                    'name' => 'ban_time',
+                                                    'type' => 'Interface'
+                                                  },
+                                    'link_acl' => {
+                                                    'class' => 'Link',
+                                                    'default' => '+',
+                                                    'help' => [
+                                                                'Default ACL for a created channel',
+                                                                '"+,+net1,-net2" denies net2, allows net1 and others'
+                                                              ],
+                                                    'name' => 'link_acl',
+                                                    'type' => 'LocalNetwork'
+                                                  },
+                                    'link_requires' => {
+                                                         'class' => 'Link',
+                                                         'default' => 'owner',
+                                                         'help' => [
+                                                                     'Minimum access level to link a channel.',
+                                                                     'Good values include "op", "owner", or "oper"'
+                                                                   ],
+                                                         'name' => 'link_requires',
+                                                         'type' => 'LocalNetwork'
+                                                       }
+                                  },
+            '%Janus::modinfo' => {
+                                   'Account' => {
+                                                  'active' => 1,
+                                                  'sha' => '5967310558b62e5f53d6cbfe6a9da55b3e562292',
+                                                  'version' => '1.10'
+                                                },
+                                   'Actions' => {
+                                                  'active' => 1,
+                                                  'sha' => 'bfd10938ecca425573d1927e7e89abb5b4e7ccea',
+                                                  'version' => '1.10'
+                                                },
+                                   'Commands::Account' => {
+                                                            'active' => 1,
+                                                            'sha' => '7ff205118276dd38a2b49e20d4e8b536fd73f90e',
+                                                            'version' => '1.10'
+                                                          },
+                                   'Commands::ClientLink' => {
+                                                               'active' => 1,
+                                                               'sha' => '217af4060b70090834930f23092fb88578df8b40',
+                                                               'version' => '1.10'
+                                                             },
+                                   'Commands::ClientUtils' => {
+                                                                'active' => 1,
+                                                                'sha' => '50c1d4211f3a6886f338c9a9ea64d06a0bf760b1',
+                                                                'version' => '1.10'
+                                                              },
+                                   'Commands::Core' => {
+                                                         'active' => 1,
+                                                         'sha' => 'eb074274aa0f1b30a6e0fcc5991b57b5ff539b17',
+                                                         'version' => '1.10'
+                                                       },
+                                   'Commands::Debug' => {
+                                                          'active' => 1,
+                                                          'sha' => '4debe46613e5276c8b5ead4c6ef701d2707f6d2d',
+                                                          'version' => '1.10'
+                                                        },
+                                   'Commands::Eval' => {
+                                                         'active' => 1,
+                                                         'sha' => '5974919981ebddd40dcc75b083bef26eb5a9046e',
+                                                         'version' => '1.10'
+                                                       },
+                                   'Commands::ForceTag' => {
+                                                             'active' => 1,
+                                                             'sha' => 'eab02f19f7c0aa510adc9867ff21cc03b6430be4',
+                                                             'version' => '1.10'
+                                                           },
+                                   'Commands::Identify' => {
+                                                             'active' => 1,
+                                                             'sha' => 'e9d6631a055edd1ed88fac7dd19c0cf8ebc9d0df',
+                                                             'version' => '1.10'
+                                                           },
+                                   'Commands::Link' => {
+                                                         'active' => 1,
+                                                         'sha' => 'f138e5e07cc97e47c49f8574523aa0f8e613df0d',
+                                                         'version' => '1.10'
+                                                       },
+                                   'Commands::List' => {
+                                                         'active' => 1,
+                                                         'sha' => 'ab7887bad1248da6afcd6ecd6f1c3af50c7e0ff1',
+                                                         'version' => '1.10'
+                                                       },
+                                   'Commands::Modes' => {
+                                                          'active' => 1,
+                                                          'sha' => 'a8336cbb3bc45211f4364b88a973cbe1098455e3',
+                                                          'version' => '1.10'
+                                                        },
+                                   'Commands::Network' => {
+                                                            'active' => 1,
+                                                            'sha' => '43c43f40c511b2acd5d1812d12736a65d0bf73a2',
+                                                            'version' => '1.10'
+                                                          },
+                                   'Commands::Save' => {
+                                                         'active' => 1,
+                                                         'sha' => '1cded6349b5129379a2594c1de206e4fa435835e',
+                                                         'version' => '1.10'
+                                                       },
+                                   'Commands::Set' => {
+                                                        'active' => 1,
+                                                        'sha' => '1770167a3a9c0321d04bba2b65bad6ae8687bbc8',
+                                                        'version' => '1.10'
+                                                      },
+                                   'Commands::ShowItem' => {
+                                                             'active' => 1,
+                                                             'sha' => '7791a07f75758f8d710a41aa585bf9e21982eafb',
+                                                             'version' => '1.10'
+                                                           },
+                                   'Commands::ShowSource' => {
+                                                               'active' => 1,
+                                                               'sha' => 'cd5a4eb6a961b1561a2816edb6cac520cedb283d',
+                                                               'version' => '1.10'
+                                                             },
+                                   'Commands::SvsAccount' => {
+                                                               'active' => 1,
+                                                               'sha' => '0254e862482c92c05dafa180e483248efb78a1c4',
+                                                               'version' => '1.10'
+                                                             },
+                                   'Commands::Upgrade' => {
+                                                            'active' => 1,
+                                                            'sha' => '8b4e73b1d9c0c2e1010ad7ed797c7b25ceaed2cb',
+                                                            'version' => '1.10'
+                                                          },
+                                   'Commands::Verify' => {
+                                                           'active' => 1,
+                                                           'sha' => '29e73f97572e08bc86e3e4767045efe5fe3e5c11',
+                                                           'version' => '1.10'
+                                                         },
+                                   'Conffile' => {
+                                                   'active' => 1,
+                                                   'sha' => 'a2d72d7ed88356550afb78cb71def376f58e6741',
+                                                   'version' => '1.10'
+                                                 },
+                                   'Connection' => {
+                                                     'active' => 1,
+                                                     'sha' => '000ae820c161b0bfd7116a02ff2346f5bbfdd700',
+                                                     'version' => '1.10'
+                                                   },
+                                   'Event' => {
+                                                'active' => 1,
+                                                'sha' => '304cc20492e8cd56e4cd0bac6cf5133e33bf4505',
+                                                'version' => '1.10'
+                                              },
+                                   'EventDump' => {
+                                                    'active' => 1,
+                                                    'sha' => '21adff0b9b5618b91b0f197d56e60e903567f1b3',
+                                                    'version' => '1.10'
+                                                  },
+                                   'Interface' => {
+                                                    'active' => 1,
+                                                    'sha' => '4a957d8ecb003f63f2fceb10dfd1cd185c06835d',
+                                                    'version' => '1.10'
+                                                  },
+                                   'Janus' => {
+                                                'active' => 1,
+                                                'desc' => 'Core module loader',
+                                                'sha' => 'fc1478412baad314b6fc0a16f84baa44b9468f24',
+                                                'version' => '1.10'
+                                              },
+                                   'Link' => {
+                                               'active' => 1,
+                                               'sha' => '2dac44234bd7909e8be96ffaa35e6191b45acb66',
+                                               'version' => '1.10'
+                                             },
+                                   'Listener' => {
+                                                   'load' => 1,
+                                                   'sha' => 'b20aaa3362c01bcea50e08012b8db31e93e7c06d',
+                                                   'version' => '1.10'
+                                                 },
+                                   'Log' => {
+                                              'active' => 1,
+                                              'sha' => '229828f55915eeaee2f354ab69932db42af1ea12',
+                                              'version' => '1.10'
+                                            },
+                                   'Log::Base' => {
+                                                    'load' => 1,
+                                                    'sha' => '28190dc65c348df82952948533e28083e5d1cd1a',
+                                                    'version' => '1.10'
+                                                  },
+                                   'Log::Channel' => {
+                                                       'active' => 1,
+                                                       'sha' => '4e11cc73c5f54bd7f69716214af546de7fc34277',
+                                                       'version' => '1.10'
+                                                     },
+                                   'Log::File' => {
+                                                    'active' => 1,
+                                                    'sha' => 'f2d5cdb41ba536e027df1a36d96d200a54aebe30',
+                                                    'version' => '1.10'
+                                                  },
+                                   'Modes' => {
+                                                'load' => 1,
+                                                'sha' => 'ccd7ba859b1f96ef4941a04bfd3cc2db332573ac',
+                                                'version' => '1.10'
+                                              },
+                                   'Modules::Ban' => {
+                                                       'active' => 1,
+                                                       'sha' => '4b30b929808e64511447511e7504bd4d1d497622',
+                                                       'version' => '1.10'
+                                                     },
+                                   'Modules::KeepMode' => {
+                                                            'active' => 1,
+                                                            'sha' => 'a98424ec5207848c0e9bd1b6e1bc288f53045dc8',
+                                                            'version' => '1.10'
+                                                          },
+                                   'Modules::Signals' => {
+                                                           'active' => 1,
+                                                           'sha' => '1d06595b75af2dcf8fc252125776c6428536d2ea',
+                                                           'version' => '1.10'
+                                                         },
+                                   'Network' => {
+                                                  'load' => 1,
+                                                  'sha' => 'ed63ef2e6013fc525a92dfa90acb9288be7e870d',
+                                                  'version' => '1.10'
+                                                },
+                                   'Nick' => {
+                                               'load' => 1,
+                                               'sha' => '3b92d0eb9306303e66d71851b73c5a09b8c304a7',
+                                               'version' => '1.10'
+                                             },
+                                   'Persist' => {
+                                                  'load' => 1,
+                                                  'sha' => '5882d6d2025d0a011928daa51bb6271dd5c9cacf',
+                                                  'version' => '1.10'
+                                                },
+                                   'RemoteJanus' => {
+                                                      'load' => 1,
+                                                      'sha' => '14e65ea4badbd37356876d3e80badbed11bd683e',
+                                                      'version' => '1.10'
+                                                    },
+                                   'Server::TS6' => {
+                                                      'load' => 1,
+                                                      'sha' => '0993331b3bfbfb764ddca0664315e53209d42660',
+                                                      'version' => 'x0993331b'
+                                                    },
+                                   'Setting' => {
+                                                  'active' => 1,
+                                                  'sha' => 'ebb28a5870c958ce09d4e96ab2425447290218a8',
+                                                  'version' => '1.10'
+                                                },
+                                   'Snapshot' => {
+                                                   'load' => 1,
+                                                   'sha' => '9595a1ebd041a0880743cfa25dbf82404aee4b8d',
+                                                   'version' => '1.10'
+                                                 },
+                                   'SocketHandler' => {
+                                                        'load' => 1,
+                                                        'sha' => 'de67bc48b3d051d65e4cded8bd55fa8a25327178',
+                                                        'version' => '1.10'
+                                                      },
+                                   'Util::Ban' => {
+                                                    'load' => 1,
+                                                    'sha' => 'a93dd0e9ef80ce826f0c62c7eef9445df7b9085d',
+                                                    'version' => '1.10'
+                                                  },
+                                   'Util::Crypto' => {
+                                                       'load' => 1,
+                                                       'sha' => 'e68e8628d1f36c0bdb9a7be33a4ab9f5e9d6e67d',
+                                                       'version' => '1.10'
+                                                     },
+                                   'Util::Exec' => {
+                                                     'load' => 1,
+                                                     'sha' => 'dc15aa4be1c12f95558ed43ede47c337fb789c91',
+                                                     'version' => '1.10'
+                                                   }
+                                 },
+            '%Janus::static' => {
+                                  'Commands::SvsAccount::auth_cache' => 1,
+                                  'Conffile::netconf' => 1,
+                                  'Event::commands' => 1,
+                                  'Event::hook_chk' => 1,
+                                  'Event::hook_mod' => 1,
+                                  'Event::hook_run' => 1,
+                                  'Event::qstack' => 1,
+                                  'Event::settings' => 1,
+                                  'Janus::global' => 1,
+                                  'Janus::modinfo' => 1,
+                                  'Janus::sha1' => 1,
+                                  'Janus::static' => 1,
+                                  'Log::ANSI' => 1,
+                                  'Log::File::fh' => 1,
+                                  'Log::action' => 1,
+                                  'Log::fcount' => 1,
+                                  'Log::ftime' => 1,
+                                  'Log::listeners' => 1,
+                                  'Modes::mtype' => 1,
+                                  'Modes::nmode_sym' => 1,
+                                  'Modes::nmode_txt' => 1,
+                                  'Persist::init_args' => 1,
+                                  'Persist::vars' => 1,
+                                  'Util::Ban::nh_hit' => 1,
+                                  'Util::Ban::nh_miss' => 1,
+                                  'Util::Ban::nh_ok' => 1
+                                },
+            '%Log::action' => {
+                                'action' => sub { "DUMMY" },
+                                'alloc' => sub { "DUMMY" },
+                                'audit' => sub { "DUMMY" },
+                                'command' => sub { "DUMMY" },
+                                'debug' => sub { "DUMMY" },
+                                'debug_in' => sub { "DUMMY" },
+                                'err' => sub { "DUMMY" },
+                                'err_in' => sub { "DUMMY" },
+                                'hook_err' => sub { "DUMMY" },
+                                'hook_info' => sub { "DUMMY" },
+                                'info' => sub { "DUMMY" },
+                                'info_in' => sub { "DUMMY" },
+                                'netin' => sub { "DUMMY" },
+                                'netout' => sub { "DUMMY" },
+                                'poison' => sub { "DUMMY" },
+                                'timestamp' => sub { "DUMMY" },
+                                'warn' => sub { "DUMMY" },
+                                'warn_in' => sub { "DUMMY" }
+                              },
+            '%Modes::mtype' => {
+                                 'admin' => 'n',
+                                 'allinvite' => 'r',
+                                 'auditorium' => 'r',
+                                 'badword' => 'r',
+                                 'badwords' => 'l',
+                                 'ban' => 'l',
+                                 'blockcaps' => 'r',
+                                 'cb_direct' => 'r',
+                                 'cb_modesync' => 'r',
+                                 'cb_showjoin' => 'r',
+                                 'cb_topicsync' => 'r',
+                                 'chanhide' => 'r',
+                                 'colorblock' => 'r',
+                                 'ctcpblock' => 'r',
+                                 'delayjoin' => 'r',
+                                 'except' => 'l',
+                                 'flood' => 'v',
+                                 'flood3.2' => 'v',
+                                 'forward' => 'v',
+                                 'halfop' => 'n',
+                                 'invex' => 'l',
+                                 'invite' => 'r',
+                                 'jcommand' => 'r',
+                                 'joinlimit' => 'v',
+                                 'key' => 'v',
+                                 'kicknorejoin' => 'v',
+                                 'limit' => 'v',
+                                 'moderated' => 'r',
+                                 'mustjoin' => 'r',
+                                 'nickflood' => 'v',
+                                 'noinvite' => 'r',
+                                 'nokick' => 'r',
+                                 'noknock' => 'r',
+                                 'norenick' => 'r',
+                                 'noticeblock' => 'r',
+                                 'op' => 'n',
+                                 'oper' => 'r',
+                                 'owner' => 'n',
+                                 'permanent' => 'r',
+                                 'quiet' => 'l',
+                                 'reginvite' => 'r',
+                                 'regmoderated' => 'r',
+                                 'sslonly' => 'r',
+                                 'survey' => 'r',
+                                 'topic' => 'r',
+                                 'voice' => 'n'
+                               },
+            '%Persist::init_args' => {
+                                       'Log::Base' => {
+                                                        'filter' => $thaw_var->('Log::Base','filter'),
+                                                        'name' => $thaw_var->('Log::Base','name')
+                                                      },
+                                       'Log::File' => {
+                                                        'closeact' => $thaw_var->('Log::File','closeact'),
+                                                        'dump' => $thaw_var->('Log::File','dump'),
+                                                        'rotate' => $thaw_var->('Log::File','rotate')
+                                                      },
+                                       'Network' => {
+                                                      'gid' => $thaw_var->('Network','gid'),
+                                                      'id' => $thaw_var->('Network','name'),
+                                                      'jlink' => $thaw_var->('Network','jlink'),
+                                                      'netname' => $thaw_var->('Network','netname')
+                                                    },
+                                       'RemoteJanus' => {
+                                                          'id' => $thaw_var->('RemoteJanus','id'),
+                                                          'parent' => $thaw_var->('RemoteJanus','parent')
+                                                        },
+                                       'Util::Ban' => {
+                                                        'expire' => $thaw_var->('Util::Ban','expire'),
+                                                        'host' => $thaw_var->('Util::Ban','host'),
+                                                        'match' => $thaw_var->('Util::Ban','match'),
+                                                        'reason' => $thaw_var->('Util::Ban','reason'),
+                                                        'setat' => $thaw_var->('Util::Ban','setat'),
+                                                        'setter' => $thaw_var->('Util::Ban','setter'),
+                                                        'to' => $thaw_var->('Util::Ban','to')
+                                                      }
+                                     },
+            '%Persist::vars' => {
+                                  'Listener' => {
+                                                  'id' => $thaw_var->('Listener','id')
+                                                },
+                                  'Log::Base' => {
+                                                   'filter' => $thaw_var->('Log::Base','filter'),
+                                                   'name' => $thaw_var->('Log::Base','name')
+                                                 },
+                                  'Log::File' => {
+                                                   'closeact' => $thaw_var->('Log::File','closeact'),
+                                                   'dump' => $thaw_var->('Log::File','dump'),
+                                                   'fh' => $thaw_var->('Log::File','fh'),
+                                                   'filename' => $thaw_var->('Log::File','filename'),
+                                                   'rotate' => $thaw_var->('Log::File','rotate')
+                                                 },
+                                  'Network' => {
+                                                 'gid' => $thaw_var->('Network','gid'),
+                                                 'jlink' => $thaw_var->('Network','jlink'),
+                                                 'name' => $thaw_var->('Network','name'),
+                                                 'netname' => $thaw_var->('Network','netname'),
+                                                 'synced' => $thaw_var->('Network','synced')
+                                               },
+                                  'Nick' => {
+                                              'Commands::Identify::fails' => $thaw_var->('Nick','Commands::Identify::fails'),
+                                              'Util::Ban::mask' => $thaw_var->('Nick','Util::Ban::mask'),
+                                              'chans' => $thaw_var->('Nick','chans'),
+                                              'gid' => $thaw_var->('Nick','gid'),
+                                              'homenet' => $thaw_var->('Nick','homenet'),
+                                              'homenick' => $thaw_var->('Nick','homenick'),
+                                              'info' => $thaw_var->('Nick','info'),
+                                              'mode' => $thaw_var->('Nick','mode'),
+                                              'nets' => $thaw_var->('Nick','nets'),
+                                              'nicks' => $thaw_var->('Nick','nicks'),
+                                              'nickts' => $thaw_var->('Nick','nickts')
+                                            },
+                                  'RemoteJanus' => {
+                                                     'id' => $thaw_var->('RemoteJanus','id'),
+                                                     'parent' => $thaw_var->('RemoteJanus','parent')
+                                                   },
+                                  'SocketHandler' => {
+                                                       'pingt' => $thaw_var->('SocketHandler','pingt')
+                                                     },
+                                  'Util::Ban' => {
+                                                   'expire' => $thaw_var->('Util::Ban','expire'),
+                                                   'host' => $thaw_var->('Util::Ban','host'),
+                                                   'match' => $thaw_var->('Util::Ban','match'),
+                                                   'reason' => $thaw_var->('Util::Ban','reason'),
+                                                   'setat' => $thaw_var->('Util::Ban','setat'),
+                                                   'setter' => $thaw_var->('Util::Ban','setter'),
+                                                   'to' => $thaw_var->('Util::Ban','to')
+                                                 }
+                                },
+            '@Event::qstack' => [
+                                  [],
+                                  []
+                                ],
+            '@Log::ANSI' => [
+                              '',
+                              '30',
+                              '34',
+                              '32',
+                              '1;31',
+                              '31',
+                              '35',
+                              '33',
+                              '1;33',
+                              '1;32',
+                              '36',
+                              '1;35',
+                              '1;34',
+                              '1;35',
+                              '1;30',
+                              '37',
+                              '1;37'
+                            ],
+            '@Log::File::fh' => $thaw_var->('Log::File','fh'),
+            '@Log::listeners' => [
+                                   findobj( do{\(my $o = 1)}, 'Log::Channel' ),
+                                   findobj( do{\(my $o = 2)}, 'Log::File' )
+                                 ],
+            '@Modes::nmode_sym' => [
+                                     '~',
+                                     '&',
+                                     '@',
+                                     '%',
+                                     '+'
+                                   ],
+            '@Modes::nmode_txt' => [
+                                     'owner',
+                                     'admin',
+                                     'op',
+                                     'halfop',
+                                     'voice'
+                                   ]
+          };
+load_all();
+$global = {
+            '$Conffile::conffile' => 'janus.conf',
+            '$Connection::PRIMARY' => 1,
+            '$Connection::tblank' => '',
+            '$Event::last_check' => 1389505364,
+            '$EventDump::INST' => findobj( do{\(my $o = undef)}, 'EventDump' ),
+            '$Interface::janus' => $gnicks->{'janus:1'},
+            '$Interface::network' => $nets->{'janus'},
+            '$Janus::RELEASE' => '1.10',
+            '$Janus::git_cachets' => 1389505364,
+            '$Janus::lmode' => 'Link',
+            '$Janus::time' => 1389505364,
+            '$Log::AUTOLOAD' => 'info',
+            '$Log::Channel::loop' => 0,
+            '$RemoteJanus::self' => findobj( do{\(my $o = 1)}, 'RemoteJanus' ),
+            '$SocketHandler::ping' => {
+                                        'code' => \&SocketHandler::pingall,
+                                        'repeat' => 30
+                                      },
+            '%Account::accounts' => $states->{'Account'}{'accounts'},
+            '%Account::roles' => $states->{'Account'}{'roles'},
+            '%Event::tqueue' => {
+                                  '1389505364' => [
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Snapshot'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Listener'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'SocketHandler'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Persist'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'RemoteJanus'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Log::Base'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Util::Exec'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Util::Crypto'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Modes'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Network'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Nick'
+                                                    },
+                                                    {
+                                                      'code' => \&Janus::_load_clean,
+                                                      'module' => 'Util::Ban'
+                                                    }
+                                                  ],
+                                  '1389505394' => [
+                                                    $global->{'$SocketHandler::ping'}
+                                                  ],
+                                  '1389591764' => [
+                                                    {
+                                                      'code' => \&Log::File::rotate,
+                                                      'log' => $static->{'@Log::listeners'}[1],
+                                                      'repeat' => 86400
+                                                    }
+                                                  ]
+                                },
+            '%Janus::gnets' => {
+                                 'janus' => $nets->{'janus'}
+                               },
+            '%Janus::gnicks' => $gnicks,
+            '%Janus::nets' => $nets,
+            '%Janus::rel_csum' => {
+                                    'README' => '697b6554437ace03a003a0350d9fa63c1e12b1e5',
+                                    'c-src/.gitignore' => 'cd8fcb034e06797c797722d73b6b15bb0ca6c6fd',
+                                    'c-src/mplex.h' => '06f23490d9f9671a3a8a705568c7a3274f816953',
+                                    'c-src/multiplex.c' => '1e880b26e4eb7e05771aef0fbce2e747a81fcda6',
+                                    'c-src/queue.c' => '9288897192b67556c860de83a887ae19ca9fa33b',
+                                    'c-src/ssl-gnutls.c' => 'd9ea9f1a2a0f182550b8888545cba785006317b4',
+                                    'configure' => '83d8c4d589cdc38f70cffb39beb226588f9df895',
+                                    'doc/Multiplex' => '639f23e1e59712ecd18ef07eea2d52f4b75f1e2d',
+                                    'doc/agpl-3.0.txt' => '4f6762f6489bbd8c96f69cc46badc3b7f1e4eae0',
+                                    'extras/.gitignore' => '69cb88426e36176eac003adcf913202850e353ac',
+                                    'extras/Makefile' => '44753b6f7f3c449894fb3b1fc50043a110c6d874',
+                                    'extras/README' => 'a11c468ecf39c3050ac1378d8e61177362750909',
+                                    'extras/cert-gen' => 'a2ea91349f5f04153c8c1e768135bf112c152f7c',
+                                    'extras/get-fp.c' => '3148c29191ce910b9335b1bc2903b13949416a50',
+                                    'extras/xchat-servertab' => '11c759c79cd1524e784e1bdd13acf15e430f0a0e',
+                                    'janus.conf.example' => 'b29a23d7388d84355c4e0ab91651255574d3daf8',
+                                    'janus.pl' => 'f1ba57b99fac792fbe841724d64288e59650656c',
+                                    'src/Account.pm' => '5967310558b62e5f53d6cbfe6a9da55b3e562292',
+                                    'src/Actions.pm' => 'bfd10938ecca425573d1927e7e89abb5b4e7ccea',
+                                    'src/Bridge.pm' => '8c6da239e2c7d91887285ecf4b33db97c105af31',
+                                    'src/Channel.pm' => 'dec59feb93ccf40bee1ed0007ec0c1ea9871c125',
+                                    'src/Commands/Account.pm' => '7ff205118276dd38a2b49e20d4e8b536fd73f90e',
+                                    'src/Commands/ClientLink.pm' => '217af4060b70090834930f23092fb88578df8b40',
+                                    'src/Commands/ClientUtils.pm' => '50c1d4211f3a6886f338c9a9ea64d06a0bf760b1',
+                                    'src/Commands/Core.pm' => 'eb074274aa0f1b30a6e0fcc5991b57b5ff539b17',
+                                    'src/Commands/Debug.pm' => '4debe46613e5276c8b5ead4c6ef701d2707f6d2d',
+                                    'src/Commands/Eval.pm' => '5974919981ebddd40dcc75b083bef26eb5a9046e',
+                                    'src/Commands/ForceTag.pm' => 'eab02f19f7c0aa510adc9867ff21cc03b6430be4',
+                                    'src/Commands/Identify.pm' => 'e9d6631a055edd1ed88fac7dd19c0cf8ebc9d0df',
+                                    'src/Commands/Link.pm' => 'f138e5e07cc97e47c49f8574523aa0f8e613df0d',
+                                    'src/Commands/List.pm' => 'ab7887bad1248da6afcd6ecd6f1c3af50c7e0ff1',
+                                    'src/Commands/Modes.pm' => 'a8336cbb3bc45211f4364b88a973cbe1098455e3',
+                                    'src/Commands/Network.pm' => '43c43f40c511b2acd5d1812d12736a65d0bf73a2',
+                                    'src/Commands/Save.pm' => '1cded6349b5129379a2594c1de206e4fa435835e',
+                                    'src/Commands/Set.pm' => '1770167a3a9c0321d04bba2b65bad6ae8687bbc8',
+                                    'src/Commands/ShowItem.pm' => '7791a07f75758f8d710a41aa585bf9e21982eafb',
+                                    'src/Commands/ShowSource.pm' => 'cd5a4eb6a961b1561a2816edb6cac520cedb283d',
+                                    'src/Commands/SvsAccount.pm' => '0254e862482c92c05dafa180e483248efb78a1c4',
+                                    'src/Commands/Upgrade.pm' => '8b4e73b1d9c0c2e1010ad7ed797c7b25ceaed2cb',
+                                    'src/Commands/Verify.pm' => '29e73f97572e08bc86e3e4767045efe5fe3e5c11',
+                                    'src/Conffile.pm' => 'a2d72d7ed88356550afb78cb71def376f58e6741',
+                                    'src/Connection.pm' => '000ae820c161b0bfd7116a02ff2346f5bbfdd700',
+                                    'src/Event.pm' => '304cc20492e8cd56e4cd0bac6cf5133e33bf4505',
+                                    'src/EventDump.pm' => '21adff0b9b5618b91b0f197d56e60e903567f1b3',
+                                    'src/Interface.pm' => '4a957d8ecb003f63f2fceb10dfd1cd185c06835d',
+                                    'src/Janus.pm' => 'fc1478412baad314b6fc0a16f84baa44b9468f24',
+                                    'src/Link.pm' => '2dac44234bd7909e8be96ffaa35e6191b45acb66',
+                                    'src/Listener.pm' => 'b20aaa3362c01bcea50e08012b8db31e93e7c06d',
+                                    'src/LocalNetwork.pm' => '53a1c2a70410158d3e1d5e256b570f48e0ff8fa5',
+                                    'src/Log.pm' => '229828f55915eeaee2f354ab69932db42af1ea12',
+                                    'src/Log/Base.pm' => '28190dc65c348df82952948533e28083e5d1cd1a',
+                                    'src/Log/Channel.pm' => '4e11cc73c5f54bd7f69716214af546de7fc34277',
+                                    'src/Log/Debug.pm' => 'c4834dc75bf55aeda2f301d3ccac809221bdc280',
+                                    'src/Log/File.pm' => 'f2d5cdb41ba536e027df1a36d96d200a54aebe30',
+                                    'src/Modes.pm' => 'ccd7ba859b1f96ef4941a04bfd3cc2db332573ac',
+                                    'src/Modules/Ban.pm' => '4b30b929808e64511447511e7504bd4d1d497622',
+                                    'src/Modules/BanSet.pm' => 'b883b49d3721591ddb6d18e4547eb70870539a3b',
+                                    'src/Modules/Claim.pm' => '9665bbbce4a815cffac6d6e214514545295b2ae4',
+                                    'src/Modules/KeepMode.pm' => 'a98424ec5207848c0e9bd1b6e1bc288f53045dc8',
+                                    'src/Modules/Qline.pm' => '7563e73cf60cfde0d9ed555aa32dbb61f303a839',
+                                    'src/Modules/Services.pm' => 'f357163f8e591b0f2713072faaa38b598577b696',
+                                    'src/Modules/Signals.pm' => '1d06595b75af2dcf8fc252125776c6428536d2ea',
+                                    'src/Modules/Spamfilter.pm' => 'ab6aa374363093b1df19684d89c8a7f731a89753',
+                                    'src/Modules/WhoisFilter.pm' => '891fb3269fa7d58c11e3833d95b9ac363bda7320',
+                                    'src/Multiplex.pm' => '060c17b55e6872d65bfd1f657e03f2de3b8216f3',
+                                    'src/Network.pm' => 'ed63ef2e6013fc525a92dfa90acb9288be7e870d',
+                                    'src/Nick.pm' => '3b92d0eb9306303e66d71851b73c5a09b8c304a7',
+                                    'src/Persist.pm' => '5882d6d2025d0a011928daa51bb6271dd5c9cacf',
+                                    'src/RemoteJanus.pm' => '14e65ea4badbd37356876d3e80badbed11bd683e',
+                                    'src/RemoteNetwork.pm' => 'ae6b43eb47e3ae0f8e69da90309cdbc1d7798b98',
+                                    'src/Server/BaseNick.pm' => '43cc75fe24761ef5106334ded43fd46ba9547c67',
+                                    'src/Server/BaseUID.pm' => 'f8ac54b12f6ffe3401cbdc94faba25260fc6f783',
+                                    'src/Server/ClientBot.pm' => 'e10bee9b602872c4b9fa24959cb8cbfabf074e0a',
+                                    'src/Server/InspMods.pm' => '2f3bfb08a07e436bdf5c044f0b94528f04ff96e8',
+                                    'src/Server/Inspircd_1105.pm' => '838f25585c1ea1b3cdf351ca762b3168ddf4faa3',
+                                    'src/Server/Inspircd_1200.pm' => '10ef83e7de3f5a6d33ec627fa15fb5d536d0233d',
+                                    'src/Server/InterJanus.pm' => '6075c2b74db2e46e59b7b534163b19b24a243ecf',
+                                    'src/Server/ModularNetwork.pm' => 'dd7c8e2bb991a348e37fe64acd52eab46d5e5d51',
+                                    'src/Server/TS6.pm' => 'f67dda2ff3e1eabbe451a2d3f79e1ab659ec8893',
+                                    'src/Server/Unreal.pm' => '62de8719e06b793b22831fe8209f2fc7828e4c19',
+                                    'src/Setting.pm' => 'ebb28a5870c958ce09d4e96ab2425447290218a8',
+                                    'src/Snapshot.pm' => '9595a1ebd041a0880743cfa25dbf82404aee4b8d',
+                                    'src/SocketHandler.pm' => 'de67bc48b3d051d65e4cded8bd55fa8a25327178',
+                                    'src/Util/Ban.pm' => 'a93dd0e9ef80ce826f0c62c7eef9445df7b9085d',
+                                    'src/Util/Crypto.pm' => 'e68e8628d1f36c0bdb9a7be33a4ab9f5e9d6e67d',
+                                    'src/Util/Exec.pm' => 'dc15aa4be1c12f95558ed43ede47c337fb789c91',
+                                    'src/worker.pl' => '17db9762ae4cc3088294f0325db9b9638614c50b'
+                                  },
+            '%Janus::states' => $states,
+            '%Link::request' => $states->{'Link'}{'request'},
+            '%Modules::KeepMode::saved' => $states->{'Modules::KeepMode'}{'saved'},
+            '%Nick::umodebit' => {
+                                   'admin' => 2097152,
+                                   'badword' => 64,
+                                   'bot' => 32,
+                                   'callerid' => 16384,
+                                   'coadmin' => 1048576,
+                                   'colorstrip' => 4,
+                                   'dcc_reject' => 256,
+                                   'deaf_chan' => 512,
+                                   'deaf_commonchan' => 4096,
+                                   'deaf_ctcp' => 2048,
+                                   'deaf_regpriv' => 1024,
+                                   'hide_chans' => 128,
+                                   'hideoper' => 65536,
+                                   'invisible' => 8,
+                                   'netadmin' => 8388608,
+                                   'no_kick' => 131072,
+                                   'no_privmsg' => 8192,
+                                   'oper' => 1,
+                                   'oper_local' => 524288,
+                                   'service' => 32768,
+                                   'ssl' => 2,
+                                   'svs_admin' => 4194304,
+                                   'wallops' => 16,
+                                   'whois_notice' => 262144
+                                 },
+            '%Persist::gid_shrink' => {
+                                        'Log::Base' => 0,
+                                        'Nick' => 0,
+                                        'SocketHandler' => 0
+                                      },
+            '%Persist::max_gid' => {
+                                     'Log::Base' => 2,
+                                     'Nick' => 1,
+                                     'SocketHandler' => 2
+                                   },
+            '%Persist::reuse' => {
+                                   'Log::Base' => [],
+                                   'Nick' => [],
+                                   'SocketHandler' => []
+                                 },
+            '%Setting::value' => $states->{'Setting'}{'value'},
+            '@Log::Base::filter' => $thaw_var->('Log::Base','filter'),
+            '@Log::Base::name' => $thaw_var->('Log::Base','name'),
+            '@Log::File::closeact' => $thaw_var->('Log::File','closeact'),
+            '@Log::File::dump' => $thaw_var->('Log::File','dump'),
+            '@Log::File::filename' => $thaw_var->('Log::File','filename'),
+            '@Log::File::rotate' => $thaw_var->('Log::File','rotate'),
+            '@Network::gid' => $thaw_var->('Network','gid'),
+            '@Network::jlink' => $thaw_var->('Network','jlink'),
+            '@Network::name' => $thaw_var->('Network','name'),
+            '@Network::netname' => $thaw_var->('Network','netname'),
+            '@Nick::chans' => $thaw_var->('Nick','chans'),
+            '@Nick::gid' => $thaw_var->('Nick','gid'),
+            '@Nick::homenet' => $thaw_var->('Nick','homenet'),
+            '@Nick::homenick' => $thaw_var->('Nick','homenick'),
+            '@Nick::info' => $thaw_var->('Nick','info'),
+            '@Nick::mode' => $thaw_var->('Nick','mode'),
+            '@Nick::nets' => $thaw_var->('Nick','nets'),
+            '@Nick::nicks' => $thaw_var->('Nick','nicks'),
+            '@Nick::nickts' => $thaw_var->('Nick','nickts'),
+            '@RemoteJanus::id' => $thaw_var->('RemoteJanus','id'),
+            '@RemoteJanus::parent' => $thaw_var->('RemoteJanus','parent')
+          };
+$object = {
+            'Log::Base' => {
+                             '1' => {
+                                      'filter' => 'audit',
+                                      'name' => 'net#logchan'
+                                    },
+                             '2' => {
+                                      'filter' => 'debug info warn err audit command debug_in info_in warn_in err_in hook_err',
+                                      'name' => 'log/%Y-%m-%d-%H:%M:%S'
+                                    }
+                           },
+            'Log::File' => {
+                             '2' => {
+                                      'closeact' => 'gzip',
+                                      'dump' => undef,
+                                      'filename' => 'log/2014-01-12-05:42:44',
+                                      'rotate' => $global->{'%Event::tqueue'}{'1389591764'}[0]
+                                    }
+                           },
+            'Network' => {
+                           '2' => {
+                                    'gid' => 'janus',
+                                    'jlink' => undef,
+                                    'name' => 'janus',
+                                    'netname' => 'Janus'
+                                  }
+                         },
+            'Nick' => {
+                        '1' => {
+                                 'chans' => [],
+                                 'gid' => 'janus:1',
+                                 'homenet' => $nets->{'janus'},
+                                 'homenick' => 'Janus',
+                                 'info' => {
+                                             'host' => 'services.janus',
+                                             'ident' => 'janus',
+                                             'name' => 'Janus Control Interface',
+                                             'noquit' => 1,
+                                             'opertype' => 'Janus Service',
+                                             'signonts' => '1389505364',
+                                             'vhost' => 'service'
+                                           },
+                                 'mode' => 32801,
+                                 'nets' => {
+                                             '2' => $nets->{'janus'}
+                                           },
+                                 'nicks' => {
+                                              '2' => 'Janus'
+                                            },
+                                 'nickts' => {
+                                               '2' => '389505364'
+                                             }
+                               }
+                      },
+            'RemoteJanus' => {
+                               '1' => {
+                                        'id' => 'asterirc',
+                                        'parent' => undef
+                                      }
+                             }
+          };
+$arg = [
+         'Can\'t locate Util/BaseUID.pm in @INC (@INC contains: Janus=SCALAR(0xd47648) /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at x0993331b/Server/TS6.pm line 7.
+BEGIN failed--compilation aborted at x0993331b/Server/TS6.pm line 7.
+Compilation failed in require at ./src/Janus.pm line 134.
+',
+         'Janus',
+         'MODLOAD/act',
+         {
+           'module' => 'Server::TS6',
+           'type' => 'MODLOAD'
+         },
+         '(eval) called by Commands::Debug at 1.10/Commands/Debug.pm line 28',
+         [
+           'Commands::Debug::__ANON__ called by Event at 1.10/Event.pm line 305',
+           'Can\'t locate Util/BaseUID.pm in @INC (@INC contains: Janus=SCALAR(0xd47648) /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at x0993331b/Server/TS6.pm line 7.
+BEGIN failed--compilation aborted at x0993331b/Server/TS6.pm line 7.
+Compilation failed in require at ./src/Janus.pm line 134.
+',
+           'Janus',
+           'MODLOAD/act',
+           $arg->[3]
+         ],
+         '(eval) called by Event at 1.10/Event.pm line 307',
+         [
+           'Event::named_hook called by Event at 1.10/Event.pm line 238',
+           'die',
+           '',
+           'Janus',
+           'MODLOAD/act',
+           $arg->[3]
+         ],
+         [
+           'Event::_run called by Event at 1.10/Event.pm line 271',
+           $arg->[3]
+         ],
+         [
+           'Event::insert_full called by Janus at ./src/Janus.pm line 251',
+           $arg->[3]
+         ],
+         [
+           'Janus::load called by Conffile at 1.10/Conffile.pm line 250',
+           'Server::TS6'
+         ],
+         [
+           'Conffile::connect_net called by Conffile at 1.10/Conffile.pm line 339',
+           'aster'
+         ],
+         [
+           'Conffile::__ANON__ called by Event at 1.10/Event.pm line 236',
+           {
+             'type' => 'RUN'
+           }
+         ],
+         '(eval) called by Event at 1.10/Event.pm line 236',
+         [
+           'Event::_run called by Event at 1.10/Event.pm line 271',
+           $arg->[12][1]
+         ],
+         [
+           'Event::insert_full called by main at ./janus.pl line 89',
+           $arg->[12][1]
+         ]
+       ];

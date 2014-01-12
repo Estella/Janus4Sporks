@@ -1,0 +1,90 @@
+@Util::Ban::all = ();
+%Setting::value = (
+                    'tagsep plex' => '_',
+                    'tagsep aster' => '_'
+                  );
+%Account::roles = (
+                    'owner' => 'reload unload up-git up-tar upgrade die reboot restart',
+                    'admin' => 'account setpass info/nick dump verify role forcetag globalban',
+                    'botop' => 'clink forceid botnick',
+                    'superadmin' => 'salink eval',
+                    'allconf' => 'setall/channel setall/network',
+                    'netop' => 'set/network set/channel autoconnect netsplit xline',
+                    'oper' => 'oper ban rehash link',
+                    'user' => 'user'
+                  );
+%Account::accounts = (
+                       'admin' => {
+                                    'acl' => '*'
+                                  }
+                     );
+%Modules::KeepMode::saved = (
+                              'aster#emi' => {
+                                               'topic' => 1,
+                                               'mustjoin' => 1
+                                             },
+                              'aster#asterirc' => {
+                                                    'topic' => 1,
+                                                    'mustjoin' => 1,
+                                                    'survey' => 1,
+                                                    'permanent' => 1
+                                                  },
+                              'aster#beard' => {
+                                                 'topic' => 1,
+                                                 'mustjoin' => 1
+                                               }
+                            );
+%Link::request = (
+                   'plex' => {
+                               '#asterirc' => {
+                                                'time' => 1389507559,
+                                                'chan' => '#asterirc',
+                                                'net' => 'aster',
+                                                'mask' => 'j4jackj!jack@172.218.203.54'
+                                              }
+                             },
+                   'aster' => {
+                                '#emi' => {
+                                            'ack' => {},
+                                            'time' => 1389496478,
+                                            'mode' => 1,
+                                            'mask' => 'j4jackj!jack@172.218.203.54'
+                                          },
+                                '#beard' => {
+                                              'ack' => {},
+                                              'time' => 1389496432,
+                                              'mode' => 1,
+                                              'mask' => 'j4jackj!jack@172.218.203.54'
+                                            },
+                                '#asterirc' => {
+                                                 'ack' => {},
+                                                 'time' => 1389496363,
+                                                 'mode' => 1,
+                                                 'mask' => 'j4jackj!jack@172.218.203.54'
+                                               }
+                              },
+                   'eminet' => {
+                                 '#emi' => {
+                                             'time' => 1389496532,
+                                             'chan' => '#emi',
+                                             'net' => 'aster',
+                                             'mask' => 'j4jackj!jack@172.218.203.54'
+                                           }
+                               },
+                   'beardnet' => {
+                                   '#beard' => {
+                                                 'time' => 1389496450,
+                                                 'chan' => '#beard',
+                                                 'net' => 'aster',
+                                                 'mask' => 'j4jackj!jack@172.218.203.54'
+                                               }
+                                 },
+                   'fn' => {
+                             '##debauchery' => {
+                                                 'time' => 1389496491,
+                                                 'chan' => '#emi',
+                                                 'net' => 'aster',
+                                                 'mask' => 'j4jackj!jack@172.218.203.54'
+                                               }
+                           }
+                 );

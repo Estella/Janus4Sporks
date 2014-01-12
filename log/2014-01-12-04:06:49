@@ -1,0 +1,788 @@
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[36minfo: Accepting incoming connections on 8005[m
+[36minfo: Autoconnecting undernet[m
+[36minfo: Setting up nonblocking connection to Undernet at irc.undernet.org:6667[m
+[36minfo: Autoconnecting qnet-bot[m
+[36minfo: Setting up nonblocking connection to Quakenet via relay bot at 66.225.225.66:6667[m
+[36minfo: Autoconnecting eminet[m
+[36minfo: Setting up nonblocking connection to EmiNET at irc.eminet.us:6667[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[31mERR: syntax error at xf203c955/Server/TS6_Plexus.pm line 10, near "use Server::TS6
+
+use Persist "
+BEGIN not safe after errors--compilation aborted at xf203c955/Server/TS6_Plexus.pm line 11.
+Compilation failed in require at ./src/Janus.pm line 134.
+ Janus MODLOAD/act HASH(0x1e25e58)[m
+[31mERR: Error creating Server::TS6_Plexus network plex: [m
+[36minfo: Autoconnecting beardnet[m
+[36minfo: Setting up nonblocking connection to BeardNET at irc.beard.cc:6667[m
+[36minfo: Autoconnecting fn[m
+[36minfo: Setting up nonblocking connection to Freenode at irc.freenode.net:6667[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;30mdebug@aster=asterirc:1: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[36minfo: Link janus? into aster asterirc:1#asterirc (2:2 -> 1)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#beard (2:4 -> 3)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#emi (2:6 -> 5)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug@aster=asterirc:1: Introducing server services.umbrellix.tk from 42X with numeric 00A[m
+[35mWARN@aster=asterirc:1: Unknown umode 'x'[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAB for local nick j4jackj #2[m
+[31mERR@aster=asterirc:1: Unknown command 'METADATA'[m
+[31mERR@aster=asterirc:1: Unknown command 'METADATA'[m
+[35mWARN@aster=asterirc:1: Unknown umode 'x'[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAC for local nick Bux #3[m
+[35mWARN@aster=asterirc:1: Unknown umode 'x'[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAD for local nick Antonio #4[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAB for local nick ALIS #5[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAC for local nick BotServ #6[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAD for local nick ChanFix #7[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAE for local nick ChanServ #8[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAF for local nick GameServ #9[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAG for local nick Global #10[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAH for local nick GroupServ #11[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAI for local nick HelpServ #12[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAJ for local nick HostServ #13[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAK for local nick InfoServ #14[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAL for local nick MemoServ #15[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAM for local nick NickServ #16[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAN for local nick OperServ #17[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAO for local nick RPGServ #18[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAP for local nick SaslServ #19[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAR for local nick AsterChat #20[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAT for local nick AsterIRC #21[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAS for local nick AsterNET #22[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAU for local nick X #23[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAQ for local nick StatServ #24[m
+[35mWARN@aster=asterirc:1: Unknown umode 'x'[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAE for local nick strattera #25[m
+[35mWARN@aster=asterirc:1: Unknown umode 'x'[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAF for local nick Some1 #26[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAT for local nick somasonic #27[m
+[35mWARN@aster=asterirc:1: Unknown umode 'x'[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAX for local nick SpikeTDog #28[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xe2b96ca2/Server/TS6.pm line 877.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xe2b96ca2/Server/TS6.pm line 877.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xe2b96ca2/Server/TS6.pm line 877.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xe2b96ca2/Server/TS6.pm line 877.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xe2b96ca2/Server/TS6.pm line 877.
+[m
+[35mWARN@beardnet=asterirc:6: Unknown command in line :unix.beard.cc 439 * :Please wait while we process your connection.[m
+[31mERR@aster=asterirc:1: UID '0AJAAAAAA' is from network 'janus' but was sourced locally[m
+[36minfo: Link eminet#emi into aster asterirc:1#emi (7:10 -> 5)[m
+[35mWARN: Use of uninitialized value $_[1] in lc at 1.10/Server/ClientBot.pm line 179.
+[m
+[35mWARN: Use of uninitialized value $_[1] in lc at 1.10/Server/ClientBot.pm line 179.
+[m
+[35mWARN@qnet-bot=asterirc:3: Unknown command in line :servercentral.il.us.quakenet.org 221 Asterelay +i[m
+[36minfo: Link beardnet#beard into aster asterirc:1#beard (9:10 -> 3)[m
+[1;30mdebug@aster=asterirc:1: Registering nick #29 as uid 0FJAAAAAA with nick squall[m
+[1;30mdebug@aster=asterirc:1: Registering nick #30 as uid 0FJAAAAAB with nick slut_tits[m
+[1;30mdebug@aster=asterirc:1: Registering nick #31 as uid 0FJAAAAAC with nick seanlovesplanb[m
+[1;30mdebug@aster=asterirc:1: Registering nick #32 as uid 0FJAAAAAD with nick b0n[m
+[1;30mdebug@aster=asterirc:1: Registering nick #33 as uid 0FJAAAAAE with nick daniel[m
+[1;30mdebug@aster=asterirc:1: Registering nick #34 as uid 0FJAAAAAF with nick twrecks[m
+[1;30mdebug@aster=asterirc:1: Registering nick #35 as uid 0FJAAAAAG with nick dickx[m
+[1;30mdebug@aster=asterirc:1: Registering nick #36 as uid 0FJAAAAAH with nick SPG[m
+[1;30mdebug@aster=asterirc:1: Registering nick #37 as uid 0FJAAAAAI with nick FuZi0N[m
+[1;30mdebug@aster=asterirc:1: Registering nick #38 as uid 0FJAAAAAJ with nick fiva[m
+[1;30mdebug@aster=asterirc:1: Registering nick #39 as uid 0FJAAAAAK with nick jew[m
+[1;30mdebug@aster=asterirc:1: Registering nick #40 as uid 0FJAAAAAL with nick pocky1[m
+[1;30mdebug@aster=asterirc:1: Registering nick #41 as uid 0FJAAAAAM with nick Ziddy[m
+[1;30mdebug@aster=asterirc:1: Registering nick #42 as uid 0FJAAAAAN with nick Emi[m
+[1;30mdebug@aster=asterirc:1: Registering nick #43 as uid 0FJAAAAAO with nick YYZ[m
+[1;30mdebug@aster=asterirc:1: Registering nick #44 as uid 0FJAAAAAP with nick deSouza[m
+[1;30mdebug@aster=asterirc:1: Registering nick #45 as uid 0FJAAAAAQ with nick Raggles[m
+[1;30mdebug@aster=asterirc:1: Registering nick #46 as uid 0FJAAAAAR with nick Some1_eminet[m
+[1;30mdebug@aster=asterirc:1: Registering nick #47 as uid 0FJAAAAAS with nick uuni[m
+[1;30mdebug@aster=asterirc:1: Registering nick #48 as uid 0FJAAAAAT with nick fore[m
+[1;30mdebug@aster=asterirc:1: Registering nick #49 as uid 0FJAAAAAU with nick neur0[m
+[1;30mdebug@aster=asterirc:1: Registering nick #50 as uid 0FJAAAAAV with nick creeper[m
+[1;30mdebug@aster=asterirc:1: Registering nick #51 as uid 0FJAAAAAW with nick ThinkBot[m
+[1;30mdebug@aster=asterirc:1: Registering nick #52 as uid 0FJAAAAAX with nick infamy[m
+[1;30mdebug@aster=asterirc:1: Registering nick #53 as uid 0FJAAAAAY with nick xz3r0[m
+[1;30mdebug@aster=asterirc:1: Registering nick #54 as uid 0FJAAAAAZ with nick yo[m
+[1;30mdebug@aster=asterirc:1: Registering nick #55 as uid 0FJAAAAA0 with nick blaise[m
+[1;30mdebug@aster=asterirc:1: Registering nick #56 as uid 0FJAAAAA1 with nick Napta[m
+[1;30mdebug@aster=asterirc:1: Registering nick #57 as uid 0FJAAAAA2 with nick analman[m
+[1;30mdebug@aster=asterirc:1: Registering nick #58 as uid 0FJAAAAA3 with nick notj4jackj[m
+[1;30mdebug@aster=asterirc:1: Registering nick #59 as uid 0FJAAAAA4 with nick Mika[m
+[1;30mdebug@aster=asterirc:1: Registering nick #60 as uid 0FJAAAAA5 with nick Antonio_eminet[m
+[1;30mdebug@aster=asterirc:1: Registering nick #61 as uid 0FJAAAAA6 with nick kossy[m
+[1;30mdebug@aster=asterirc:1: Registering nick #62 as uid 0FJAAAAA7 with nick bass[m
+[1;30mdebug@aster=asterirc:1: Registering nick #63 as uid 0FJAAAAA8 with nick Stalin[m
+[1;30mdebug@aster=asterirc:1: Registering nick #64 as uid 0FJAAAAA9 with nick DOHJCOIN[m
+[1;30mdebug@aster=asterirc:1: Registering nick #65 as uid 0FJAAAABA with nick Erlend^SE[m
+[1;30mdebug@aster=asterirc:1: Registering nick #66 as uid 0FJAAAABB with nick lympus[m
+[1;30mdebug@aster=asterirc:1: Registering nick #67 as uid 0FJAAAABC with nick INTERCAL[m
+[1;30mdebug@aster=asterirc:1: Registering nick #68 as uid 0FJAAAABD with nick ror[m
+[1;30mdebug@aster=asterirc:1: Registering nick #69 as uid 0FJAAAABE with nick Lurker1[m
+[1;30mdebug@aster=asterirc:1: Registering nick #70 as uid 0FJAAAABF with nick foreplay[m
+[1;30mdebug@aster=asterirc:1: Registering nick #71 as uid 0FJAAAABG with nick pain-piller[m
+[1;30mdebug@aster=asterirc:1: Registering nick #72 as uid 0FJAAAABH with nick Holz[m
+[1;30mdebug@aster=asterirc:1: Registering nick #73 as uid 0FJAAAABI with nick god[m
+[1;30mdebug@aster=asterirc:1: Registering nick #74 as uid 0FJAAAABJ with nick GuardianOfTheSu[m
+[1;30mdebug@aster=asterirc:1: Registering nick #75 as uid 0FJAAAABK with nick Biffjavel[m
+[1;30mdebug@aster=asterirc:1: Registering nick #76 as uid 0FJAAAABL with nick kzero[m
+[1;30mdebug@aster=asterirc:1: Registering nick #77 as uid 0FJAAAABM with nick COBOL[m
+[1;30mdebug@aster=asterirc:1: Registering nick #78 as uid 0FJAAAABN with nick EmiNET[m
+[1;30mdebug@aster=asterirc:1: Registering nick #79 as uid 0FJAAAABO with nick Jobbe[m
+[1;30mdebug@aster=asterirc:1: Registering nick #80 as uid 0FJAAAABP with nick dpk[m
+[1;30mdebug@aster=asterirc:1: Registering nick #81 as uid 0FJAAAABQ with nick delt[m
+[1;30mdebug@aster=asterirc:1: Registering nick #82 as uid 0FJAAAABR with nick juggernaut[m
+[1;30mdebug@aster=asterirc:1: Registering nick #83 as uid 0FJAAAABS with nick whoami[m
+[1;30mdebug@aster=asterirc:1: Registering nick #84 as uid 0FJAAAABT with nick Batou[m
+[1;30mdebug@aster=asterirc:1: Registering nick #85 as uid 0FJAAAABU with nick |[m
+[35mWARN: Use of uninitialized value $cname in delete at 1.10/Link.pm line 244.
+[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAA' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAB' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAC' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAD' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAE' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAF' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAG' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAH' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAI' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAJ' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAK' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAL' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAM' is from network 'eminet' but was sourced locally[m
+[35mWARN@beardnet=asterirc:6: Unknown command in line :unix.beard.cc 442 Aster #beard :You're not on that channel[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAN' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAO' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAP' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAQ' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAR' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAS' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAT' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAU' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAV' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAW' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAX' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAY' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAAZ' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA0' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA1' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA2' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA3' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA4' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA5' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA6' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA7' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA8' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAAA9' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABA' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABB' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABC' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABD' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABE' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABF' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABG' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABH' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABI' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABJ' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABK' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABL' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABM' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABN' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABO' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABP' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABQ' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABR' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABS' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABT' is from network 'eminet' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0FJAAAABU' is from network 'eminet' but was sourced locally[m
+[36minfo: Link fn##debauchery into aster asterirc:1#emi (10:10 -> 5)[m
+[35mWARN: Use of uninitialized value $_[1] in lc at 1.10/Server/ClientBot.pm line 179.
+[m
+[1;30mdebug@aster=asterirc:1: Registering nick #86 as uid 0IJAAAAAA with nick ArexR[m
+[1;30mdebug@aster=asterirc:1: Registering nick #87 as uid 0IJAAAAAB with nick ArexR|VPS[m
+[1;30mdebug@aster=asterirc:1: Registering nick #88 as uid 0IJAAAAAC with nick gardar[m
+[1;30mdebug@aster=asterirc:1: Registering nick #89 as uid 0IJAAAAAD with nick nosuni[m
+[1;30mdebug@aster=asterirc:1: Registering nick #90 as uid 0IJAAAAAE with nick honestly[m
+[1;30mdebug@aster=asterirc:1: Registering nick #91 as uid 0IJAAAAAF with nick akiaki[m
+[1;30mdebug@aster=asterirc:1: Registering nick #92 as uid 0IJAAAAAG with nick kalz[m
+[1;30mdebug@aster=asterirc:1: Registering nick #93 as uid 0IJAAAAAH with nick Emi_fn[m
+[1;30mdebug@aster=asterirc:1: Registering nick #94 as uid 0IJAAAAAI with nick carharttjimmy[m
+[1;30mdebug@aster=asterirc:1: Registering nick #95 as uid 0IJAAAAAJ with nick dpk_fn[m
+[1;30mdebug@aster=asterirc:1: Registering nick #96 as uid 0IJAAAAAK with nick rigger[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAA' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAB' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAC' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAD' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAE' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAF' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAG' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAH' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAI' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAJ' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAK' is from network 'fn' but was sourced locally[m
+[1;30mdebug@aster=asterirc:1: Registering nick #97 as uid 0IJAAAAAL with nick njsg[m
+[1;30mdebug@aster=asterirc:1: Registering nick #98 as uid 0IJAAAAAM with nick HisaoNakai[m
+[1;30mdebug@aster=asterirc:1: Registering nick #99 as uid 0IJAAAAAN with nick meefs[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAL' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAM' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAN' is from network 'fn' but was sourced locally[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting plex[m
+[31mERR: syntax error at xf203c955/Server/TS6_Plexus.pm line 10, near "use Server::TS6
+
+use Persist "
+BEGIN not safe after errors--compilation aborted at xf203c955/Server/TS6_Plexus.pm line 11.
+Compilation failed in require at ./src/Janus.pm line 134.
+ Janus MODLOAD/act HASH(0x1fffaf8)[m
+[31mERR: Error creating Server::TS6_Plexus network plex: [m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 127.0.0.1, network aster already connected[m
+[1;30mdebug@aster=asterirc:1: Registering nick #86 as uid 0IJAAAAAO with nick ArexR[m
+[1;30mdebug@aster=asterirc:1: Registering nick #87 as uid 0IJAAAAAP with nick ArexR|VPS[m
+[1;30mdebug@aster=asterirc:1: Registering nick #88 as uid 0IJAAAAAQ with nick gardar[m
+[1;30mdebug@aster=asterirc:1: Registering nick #89 as uid 0IJAAAAAR with nick nosuni[m
+[1;30mdebug@aster=asterirc:1: Registering nick #90 as uid 0IJAAAAAS with nick honestly[m
+[1;30mdebug@aster=asterirc:1: Registering nick #91 as uid 0IJAAAAAT with nick akiaki[m
+[1;30mdebug@aster=asterirc:1: Registering nick #92 as uid 0IJAAAAAU with nick kalz[m
+[1;30mdebug@aster=asterirc:1: Registering nick #93 as uid 0IJAAAAAV with nick Emi_fn[m
+[1;30mdebug@aster=asterirc:1: Registering nick #94 as uid 0IJAAAAAW with nick carharttjimmy[m
+[1;30mdebug@aster=asterirc:1: Registering nick #95 as uid 0IJAAAAAX with nick dpk_fn[m
+[1;30mdebug@aster=asterirc:1: Registering nick #96 as uid 0IJAAAAAY with nick rigger[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAO' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAP' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAQ' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAR' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAS' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAT' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAU' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAV' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAW' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAX' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAY' is from network 'fn' but was sourced locally[m
+[1;30mdebug@aster=asterirc:1: Registering nick #97 as uid 0IJAAAAAZ with nick njsg[m
+[1;30mdebug@aster=asterirc:1: Registering nick #98 as uid 0IJAAAAA0 with nick HisaoNakai[m
+[1;30mdebug@aster=asterirc:1: Registering nick #99 as uid 0IJAAAAA1 with nick meefs[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAAZ' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAA0' is from network 'fn' but was sourced locally[m
+[31mERR@aster=asterirc:1: UID '0IJAAAAA1' is from network 'fn' but was sourced locally[m
+[35mWARN: Use of uninitialized value $cname in delete at 1.10/Link.pm line 244.
+[m
+[35mWARN@fn=asterirc:7: Unknown command in line :wolfe.freenode.net 442 AsterBot ##debauchery :You're not on that channel[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAY for local nick somasonic #27[m
+[36minfo: Rejecting connection from 127.0.0.1, network aster already connected[m
+[1;35mjanus: aster:j4jackj help[m
+[35mWARN: Use of uninitialized value $item in lc at 1.10/Commands/Core.pm line 149.
+[m
+[1;35mjanus: aster:j4jackj linked[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[31mERR: syntax error at xf203c955/Server/TS6_Plexus.pm line 10, near "use Server::TS6
+
+use Persist "
+BEGIN not safe after errors--compilation aborted at xf203c955/Server/TS6_Plexus.pm line 11.
+Compilation failed in require at ./src/Janus.pm line 134.
+ Janus MODLOAD/act HASH(0x2019630)[m
+[31mERR: Error creating Server::TS6_Plexus network plex: [m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj help set[m
+[1;35mjanus: aster:j4jackj listsettings[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[31mERR: syntax error at xf203c955/Server/TS6_Plexus.pm line 10, near "use Server::TS6
+
+use Persist "
+BEGIN not safe after errors--compilation aborted at xf203c955/Server/TS6_Plexus.pm line 11.
+Compilation failed in require at ./src/Janus.pm line 134.
+ Janus MODLOAD/act HASH(0x211f710)[m
+[31mERR: Error creating Server::TS6_Plexus network plex: [m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 357.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 358.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 361.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 363.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[35mWARN: Use of uninitialized value in bitwise and (&) at 1.10/Connection.pm line 296.
+[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Invalid host.)[m
+[36minfo: Network plex split: Delink from failed read: [m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:e: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:e: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:e: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:e: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:e: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:e: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:e: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:e: Unknown command 'EOB'[m
+[36m@plex=asterirc:e: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:g: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:g: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:g: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:g: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:g: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:g: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:g: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:g: Unknown command 'EOB'[m
+[36m@plex=asterirc:g: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:i: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:i: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:i: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:i: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:i: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:i: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:i: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:i: Unknown command 'EOB'[m
+[36m@plex=asterirc:i: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:k: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:k: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:k: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:k: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:k: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:k: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:k: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:k: Unknown command 'EOB'[m
+[36m@plex=asterirc:k: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:m: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:m: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:m: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:m: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:m: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:m: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:m: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:m: Unknown command 'EOB'[m
+[36m@plex=asterirc:m: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:o: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:o: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:o: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:o: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:o: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:o: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:o: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:o: Unknown command 'EOB'[m
+[36m@plex=asterirc:o: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:q: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:q: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:q: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:q: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:q: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:q: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:q: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:q: Unknown command 'EOB'[m
+[36m@plex=asterirc:q: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:s: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:s: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:s: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:s: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:s: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:s: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:s: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:s: Unknown command 'EOB'[m
+[36m@plex=asterirc:s: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:u: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:u: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:u: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:u: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:u: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:u: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:u: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:u: Unknown command 'EOB'[m
+[36m@plex=asterirc:u: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:w: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:w: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:w: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:w: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:w: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:w: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:w: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:w: Unknown command 'EOB'[m
+[36m@plex=asterirc:w: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:y: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:y: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:y: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:y: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:y: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:y: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:y: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:y: Unknown command 'EOB'[m
+[36m@plex=asterirc:y: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:A: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:A: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:A: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:A: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:A: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:A: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:A: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:A: Unknown command 'EOB'[m
+[36m@plex=asterirc:A: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;35mjanus: aster:j4jackj rehash[m
+[1;32mAUDIT: Rehash by aster:j4jackj[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Plex at 127.0.0.2:17667[m
+[1;30mdebug@plex=asterirc:C: Registering nick #1 as uid 0AJAAAAAA with nick Janus[m
+[35mWARN@plex=asterirc:C: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:C: Registering 42XAAAAAA for local nick j4jackj #86[m
+[35mWARN@plex=asterirc:C: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:C: Registering 42XAAAAAC for local nick j4jackj__ #87[m
+[35mWARN@plex=asterirc:C: Unknown umode 'x'[m
+[1;30mdebug@plex=asterirc:C: Registering 42XAAAAAB for local nick j4jackj_ #88[m
+[31mERR@plex=asterirc:C: Unknown command 'EOB'[m
+[36m@plex=asterirc:C: Lost servers: hades.umbrellix.tk[m
+[36minfo: Network plex split: ERROR: Closing Link: 127.0.0.1 (Not enough arguments to server command.)[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value in hash element at xe2b96ca2/Server/TS6.pm line 899.
+[m
+[36m@aster=asterirc:1: Lost servers: 0jj[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m

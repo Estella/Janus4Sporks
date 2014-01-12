@@ -1,0 +1,30 @@
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[36minfo: Accepting incoming connections on 8005[m
+[36minfo: Autoconnecting undernet[m
+[36minfo: Setting up nonblocking connection to Undernet at irc.undernet.org:6667[m
+[36minfo: Autoconnecting qnet-bot[m
+[36minfo: Setting up nonblocking connection to Quakenet via relay bot at 66.225.225.66:6667[m
+[36minfo: Autoconnecting eminet[m
+[36minfo: Setting up nonblocking connection to EmiNET at irc.eminet.us:6667[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting beardnet[m
+[36minfo: Setting up nonblocking connection to BeardNET at irc.beard.cc:6667[m
+[36minfo: Autoconnecting fn[m
+[36minfo: Setting up nonblocking connection to Freenode at irc.freenode.net:6667[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network aster split: ERROR: Closing Link: 127.0.0.1 (Invalid servername.)[m
+[36minfo: Network aster split: Delink from failed read: [m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN@beardnet=asterirc:6: Unknown command in line :unix.beard.cc 439 * :Please wait while we process your connection.[m
+[35mWARN@qnet-bot=asterirc:3: Unknown command in line :servercentral.il.us.quakenet.org 221 Asterelay +i[m
+[35mWARN: Use of uninitialized value $_[1] in lc at 1.10/Server/ClientBot.pm line 179.
+[m
+[35mWARN: Use of uninitialized value $_[1] in lc at 1.10/Server/ClientBot.pm line 179.
+[m
+[35mWARN: Use of uninitialized value $_[1] in lc at 1.10/Server/ClientBot.pm line 179.
+[m
