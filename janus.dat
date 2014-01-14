@@ -1,7 +1,11 @@
 @Util::Ban::all = ();
 %Setting::value = (
                     'tagsep plex' => '_',
-                    'tagsep aster' => '_'
+                    'force_tag aster' => '.*',
+                    'force_tag eminet' => '.*',
+                    'tagsep aster' => '_',
+                    'force_tag qnet-bot' => '.*',
+                    'force_tag undernet' => '.*'
                   );
 %Account::roles = (
                     'owner' => 'reload unload up-git up-tar upgrade die reboot restart',
@@ -23,23 +27,29 @@
                                                'topic' => 1,
                                                'mustjoin' => 1
                                              },
+                              'aster#anti-' => {
+                                                 'topic' => 1,
+                                                 'mustjoin' => 1
+                                               },
                               'aster#asterirc' => {
                                                     'topic' => 1,
-                                                    'mustjoin' => 1,
-                                                    'survey' => 1,
-                                                    'permanent' => 1
+                                                    'mustjoin' => 1
                                                   },
                               'aster#beard' => {
                                                  'topic' => 1,
                                                  'mustjoin' => 1
-                                               }
+                                               },
+                              'aster#jshells' => {
+                                                   'topic' => 1,
+                                                   'mustjoin' => 1
+                                                 }
                             );
 %Link::request = (
                    'plex' => {
                                '#asterirc' => {
-                                                'time' => 1389507559,
-                                                'chan' => '#asterirc',
-                                                'net' => 'aster',
+                                                'mode' => 1,
+                                                'time' => 1389509576,
+                                                'ack' => {},
                                                 'mask' => 'j4jackj!jack@172.218.203.54'
                                               }
                              },
@@ -61,15 +71,49 @@
                                                  'time' => 1389496363,
                                                  'mode' => 1,
                                                  'mask' => 'j4jackj!jack@172.218.203.54'
-                                               }
+                                               },
+                                '#jshells' => {
+                                                'mode' => 1,
+                                                'time' => 1389597537,
+                                                'ack' => {},
+                                                'mask' => 'j4jackj!jack@172.218.203.54'
+                                              },
+                                '#anti-' => {
+                                              'mode' => 1,
+                                              'time' => 1389579240,
+                                              'ack' => {},
+                                              'mask' => 'j4jackj!jack@172.218.203.54'
+                                            }
                               },
+                   'undernet' => {
+                                   '#anti-' => {
+                                                 'time' => 1389579250,
+                                                 'chan' => '#anti-',
+                                                 'net' => 'aster',
+                                                 'mask' => 'j4jackj!jack@172.218.203.54'
+                                               }
+                                 },
+                   'qnet-bot' => {
+                                   '#jshells' => {
+                                                   'time' => 1389597628,
+                                                   'chan' => '#jshells',
+                                                   'net' => 'aster',
+                                                   'mask' => 'j4jackj!jack@172.218.203.54'
+                                                 }
+                                 },
                    'eminet' => {
                                  '#emi' => {
-                                             'time' => 1389496532,
+                                             'time' => 1389597161,
                                              'chan' => '#emi',
                                              'net' => 'aster',
                                              'mask' => 'j4jackj!jack@172.218.203.54'
-                                           }
+                                           },
+                                 '#jack' => {
+                                              'time' => 1389597822,
+                                              'chan' => '#jshells',
+                                              'net' => 'aster',
+                                              'mask' => 'j4jackj!jack@172.218.203.54'
+                                            }
                                },
                    'beardnet' => {
                                    '#beard' => {

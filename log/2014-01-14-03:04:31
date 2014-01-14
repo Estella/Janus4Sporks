@@ -1,0 +1,335 @@
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at xade744eb/Server/TS6.pm line 68.
+[m
+[36minfo: Accepting incoming connections on 8005[m
+[36minfo: Autoconnecting undernet[m
+[36minfo: Setting up nonblocking connection to Undernet at irc.undernet.org:6667[m
+[36minfo: Autoconnecting qnet-bot[m
+[36minfo: Setting up nonblocking connection to Quakenet via relay bot at 66.225.225.66:6667[m
+[36minfo: Autoconnecting eminet[m
+[36minfo: Setting up nonblocking connection to EmiNET at irc.eminet.us:6667[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Autoconnecting plex[m
+[36minfo: Setting up nonblocking connection to AsterIRC-Unreal at 66.187.75.254:6667[m
+[36minfo: Autoconnecting beardnet[m
+[36minfo: Setting up nonblocking connection to BeardNET at irc.beard.cc:6667[m
+[36minfo: Autoconnecting fn[m
+[36minfo: Setting up nonblocking connection to Freenode at irc.freenode.net:6667[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;30mdebug@aster=asterirc:1: Registering #1 as uid 0AJAAAAAA with nick Janus[m
+[36minfo: Link janus? into aster asterirc:1#anti- (2:2 -> 1)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#asterirc (2:4 -> 3)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#beard (2:6 -> 5)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#emi (2:8 -> 7)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#jshells (2:10 -> 9)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug@aster=asterirc:1: Introducing server services.umbrellix.tk from 42X with numeric 00A[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAC for local nick SpikeTDog #2[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAD for local nick slimeball #3[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAE for local nick Antonio #4[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAB for local nick ALIS #5[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAC for local nick BotServ #6[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAD for local nick ChanServ #7[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAE for local nick GameServ #8[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAF for local nick Global #9[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAG for local nick GroupServ #10[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAH for local nick HelpServ #11[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAI for local nick HostServ #12[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAJ for local nick InfoServ #13[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAK for local nick MemoServ #14[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAL for local nick NickServ #15[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAM for local nick OperServ #16[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAN for local nick RPGServ #17[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAO for local nick SaslServ #18[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAQ for local nick AsterChat #19[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAS for local nick AsterIRC #20[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAR for local nick AsterNET #21[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAU for local nick EmiNET #22[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAT for local nick X #23[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAP for local nick StatServ #24[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAF for local nick Some1 #25[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAG for local nick strattera #26[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAH for local nick wowaname #27[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAI for local nick Emi #28[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAK for local nick j4jackj #29[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xade744eb/Server/TS6.pm line 897.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xade744eb/Server/TS6.pm line 897.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at xade744eb/Server/TS6.pm line 897.
+[m
+[36m@plex=asterirc:6: Server backup.eminet.us [@4] added from janus.janus[m
+[36m@plex=asterirc:6: First link, introducing all servers[m
+[36minfo: Link janus? into plex asterirc:6#asterirc (2:10 -> 8)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN@beardnet=asterirc:7: Unknown command in line :red.beard.cc 439 * :Please wait while we process your connection.[m
+[36minfo: Link qnet-bot#jshells into aster asterirc:1#jshells (6:10 -> 9)[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[36minfo: Link eminet#emi into aster asterirc:1#emi (7:10 -> 7)[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[36minfo: Link eminet#jack into aster asterirc:1#jshells (7:11 -> 9)[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $cname in delete at 1.10/Link.pm line 244.
+[m
+[35mWARN@eminet=asterirc:4: Unknown command in line :knockers.emiNET.us 442 Aster #emi :You're not on that channel[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #30 as uid 0FJAAAAAA with nick Ziddyeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #31 as uid 0FJAAAAAB with nick AnToNiOeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #32 as uid 0FJAAAAAC with nick j4jackjeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #33 as uid 0FJAAAAAD with nick SPGeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #34 as uid 0FJAAAAAE with nick kossyeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #35 as uid 0FJAAAAAF with nick fivaeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #36 as uid 0FJAAAAAG with nick inkeminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #37 as uid 0FJAAAAAH with nick creepereminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #38 as uid 0FJAAAAAI with nick criticaleminet[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN@qnet-bot=asterirc:3: Unknown command in line :servercentral.il.us.quakenet.org 221 Asterelay +i[m
+[35mWARN@qnet-bot=asterirc:3: Unknown command in line :servercentral.il.us.quakenet.org 442 Asterelay #jshells :You're not on that channel[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #39 as uid 0FJAAAAAJ with nick Emieminet[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #40 as uid 0FJAAAAAK with nick EmiNETeminet[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[36minfo: Link fn##debauchery into aster asterirc:1#emi (11:10 -> 7)[m
+[36minfo: Link beardnet#beard into aster asterirc:1#beard (10:10 -> 5)[m
+[35mWARN: Use of uninitialized value $cname in delete at 1.10/Link.pm line 244.
+[m
+[35mWARN@beardnet=asterirc:7: Unknown command in line :red.beard.cc 442 Aster #beard :You're not on that channel[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #42 as uid 0EJAAAAAA with nick j4jackjqnet-bot[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #43 as uid 0EJAAAAAB with nick ^J^-m--qnet-bot[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #44 as uid 0EJAAAAAC with nick ^|[Baker]|^qnet-bot[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #45 as uid 0EJAAAAAD with nick |Telescope|qnet-bot[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #46 as uid 0EJAAAAAE with nick Deferoqnet-bot[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering #41 as uid 0EJAAAAAF with nick Qqnet-bot[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at gc5b21d3d/Util/BaseNick.pm line 72.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 755.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at xade744eb/Server/TS6.pm line 758.
+[m

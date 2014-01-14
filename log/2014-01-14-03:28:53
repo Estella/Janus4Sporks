@@ -1,0 +1,2599 @@
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Accepting incoming connections on 8005[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[1;30mdebug@aster=asterirc:1: Registering #1 as uid 0AJAAAAAA with nick Janus[m
+[36minfo: Link janus? into aster asterirc:1#anti- (2:2 -> 1)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#asterirc (2:4 -> 3)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#beard (2:6 -> 5)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#emi (2:8 -> 7)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#jshells (2:10 -> 9)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug@aster=asterirc:1: Introducing server services.umbrellix.tk from 42X with numeric 00A[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAC for local nick SpikeTDog #2[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAD for local nick slimeball #3[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAE for local nick Antonio #4[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAB for local nick ALIS #5[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAC for local nick BotServ #6[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAD for local nick ChanServ #7[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAE for local nick GameServ #8[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAF for local nick Global #9[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAG for local nick GroupServ #10[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAH for local nick HelpServ #11[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAI for local nick HostServ #12[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAJ for local nick InfoServ #13[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAK for local nick MemoServ #14[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAL for local nick NickServ #15[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAM for local nick OperServ #16[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAN for local nick RPGServ #17[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAO for local nick SaslServ #18[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAQ for local nick AsterChat #19[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAS for local nick AsterIRC #20[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAR for local nick AsterNET #21[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAU for local nick EmiNET #22[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAT for local nick X #23[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAP for local nick StatServ #24[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAF for local nick Some1 #25[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAG for local nick strattera #26[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAI for local nick Emi #27[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAK for local nick j4jackj #28[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at x1f492589/Server/TS6_Dakota.pm line 898.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at x1f492589/Server/TS6_Dakota.pm line 898.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;35mjanus: aster:j4jackj listmodes[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAM for local nick j4jackj_ #29[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAN for local nick Web-3896605 #29[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAO for local nick j4jackj_ #29[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAP for local nick fivo #29[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAQ for local nick fivo #29[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAR for local nick fivo #29[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAS for local nick Emi #27[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAT for local nick Bux #29[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAU for local nick j4jackj_ #30[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at x96e79f20/Util/BaseUID.pm line 142.
+[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAV for local nick Anorax #30[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAW for local nick Anorax #30[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAX for local nick j4jackj #28[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAY for local nick user #31[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Network aster split: ERROR: Terminated by Received SIGTERM[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value in hash element at 1.10/Nick.pm line 246.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value in hash element at 1.10/Nick.pm line 246.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value in hash element at 1.10/Nick.pm line 246.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value in hash element at 1.10/Nick.pm line 246.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value in hash element at 1.10/Nick.pm line 246.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug: Replace channel ?[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Network aster split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Use of uninitialized value $sep in string eq at x1f492589/Server/TS6_Dakota.pm line 68.
+[m
+[1;30mdebug@aster=asterirc:H: Registering #1 as uid 0AJAAAAAA with nick Janus[m
+[36minfo: Link janus? into aster asterirc:H#anti- (2:2 -> 1)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:H#asterirc (2:4 -> 3)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:H#beard (2:6 -> 5)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:H#emi (2:8 -> 7)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:H#jshells (2:10 -> 9)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAB for local nick Antonio #2[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAE for local nick Some1 #3[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAC for local nick slimeball #4[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAD for local nick Anorax #5[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAF for local nick j4jackj #6[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAG for local nick user #7[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAH for local nick strattera #8[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAI for local nick Emi #9[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAJ for local nick SpikeTDog #10[m
+[1;30mdebug@aster=asterirc:H: Introducing server services.umbrellix.tk from 42X with numeric 00A[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAB for local nick ALIS #11[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAC for local nick BotServ #12[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAD for local nick ChanServ #13[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAE for local nick GameServ #14[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAF for local nick Global #15[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAG for local nick GroupServ #16[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAH for local nick HelpServ #17[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAI for local nick HostServ #18[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAJ for local nick InfoServ #19[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAK for local nick MemoServ #20[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAL for local nick NickServ #21[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAM for local nick OperServ #22[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAN for local nick RPGServ #23[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAO for local nick SaslServ #24[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAQ for local nick AsterChat #25[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAS for local nick AsterIRC #26[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAR for local nick AsterNET #27[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAU for local nick EmiNET #28[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAT for local nick X #29[m
+[1;30mdebug@aster=asterirc:H: Registering 00AAAAAAP for local nick StatServ #30[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAK for local nick Web-3896605 #31[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAL for local nick user #7[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAM for local nick j4jackj #6[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAN for local nick Web-3896605 #31[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAO for local nick Web-3896605 #31[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAP for local nick j4jackj #6[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAQ for local nick user #7[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAR for local nick Anorax #5[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAS for local nick sueruser #31[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at x96e79f20/Util/BaseUID.pm line 142.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAT for local nick Mike3620 #7[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAU for local nick Mike3620 #7[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAV for local nick sueruser #5[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at x96e79f20/Util/BaseUID.pm line 142.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $tagsep in concatenation (.) or string at x96e79f20/Util/BaseUID.pm line 142.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAW for local nick j4jackj_ #7[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAX for local nick user #5[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAY for local nick user #5[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAAZ for local nick Emi #7[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA0 for local nick user #9[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA1 for local nick user #5[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA2 for local nick user #9[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA3 for local nick user #5[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA4 for local nick user #9[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA5 for local nick user #5[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA6 for local nick user #9[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA7 for local nick user #5[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA8 for local nick user #9[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAAA9 for local nick user #5[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[1;30mdebug@aster=asterirc:H: Registering 42XAAAABA for local nick user #9[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x1f492589/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m

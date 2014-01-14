@@ -1,11 +1,12 @@
 # Copyright (C) 2007-2009 Daniel De Graaf
+# Modificiations (C) 2011 - 2012 Brenton Edgar Scott
 # Released under the GNU Affero General Public License v3
 package Server::Unreal;
 use Nick;
 use Modes;
-use Server::BaseNick;
-use Server::ModularNetwork;
-use Persist 'Server::BaseNick', 'Server::ModularNetwork';
+use Util::BaseNick;
+use Util::ModularNetwork;
+use Persist 'Util::BaseNick', 'Util::ModularNetwork';
 use strict;
 use warnings;
 
@@ -139,7 +140,7 @@ my $textip_table = join '', 'A'..'Z','a'..'z', 0 .. 9, '+/';
 sub nicklen { 30 }
 
 sub lc {
-	CORE::lc $_[1];
+	CORE::lc $_[1] || '';
 }
 
 sub request_nick {
@@ -257,7 +258,8 @@ sub umode_text {
 		my $um = $net->txt2umode($m);
 		$mode .= $um if defined $um;
 	}
-	my $visible = Setting::get(oper_visibility => $net);
+	my $visible = $Janus::operlvl;
+	$visible = Setting::get(oper_visibility => $net) if Setting::get(oper_visibility => $net) < $visible;
 	$visible = 2 if $$nick == 1;
 	if ($visible == 0) {
 		# no remote oper
@@ -290,7 +292,7 @@ sub _connect_ifo {
 
 	my($hc, $srv) = (2,$nick->homenet()->jname());
 	$hc = 3 if $nick->jlink();
-	($hc, $srv) = (1, $net->cparam('linkname')) if $srv eq 'janus.janus';
+	($hc, $srv) = (1, $net->cparam('linkname')) if $srv eq 'janus'.$Janus::laddy;
 
 	if ($net->protoctl >= 2305) {
 		if ($ip =~ /^[0-9.]+$/) {
@@ -376,7 +378,8 @@ sub nick_msg {
 		$msg->[0] = $about;
 	}
 	if ($_[2] =~ /\./) {
-		Log::warn_in($net, 'numeric', @_);
+		# Why do we care about numerics we don't use?
+		# Log::warn_in($net, 'numeric', @_);
 		return ();
 	}
 	my $dst = $net->nick($_[2]) or return ();
@@ -394,6 +397,18 @@ sub nc_msg {
 	return () if $_[2] eq 'AUTH' && $_[0] =~ /\./;
 	my $src = $net->item($_[0]) or return ();
 	my $msgtype = $_[1];
+	my $out = $_[3];
+
+	my $ccode = $Janus::cclvl;
+	if ($ccode == 2) {
+		$out =~ s/\x03[0-9]{1,2}(,[0-9]{1,2})?//g;
+		$out =~ s/[\x02\x1f\x16\x0f]//g;
+	} elsif ($ccode == 1) {
+		$out =~ s/\x03[0-9]{1,2}(,[0-9]{1,2})?//g;
+	} else {
+		$out = $_[3];
+	}
+	
 	if ($_[2] =~ /^\$/) {
 		# server broadcast message. No action; these are confined to source net
 		return ();
@@ -404,7 +419,7 @@ sub nc_msg {
 			src => $src,
 			prefix => $1,
 			dst => $net->chan($2),
-			msg => $_[3],
+			msg => $out,
 			msgtype => $msgtype,
 		};
 	} elsif ($_[2] =~ /^(\S+?)(@\S+)?$/) {
@@ -870,7 +885,7 @@ $moddef{CORE} = {
 				altnick => 1,
 			};
 		} else {
-			Log::err_in($net, "Ignoring SVSNICK on already tagged nick\n");
+			Log::warn_in($net, "Ignoring SVSNICK on already tagged nick\n");
 			return ();
 		}
 	}, UMODE2 => sub {
@@ -955,7 +970,7 @@ $moddef{CORE} = {
 		my $ts = $net->sjbint($_[2]);
 		if ($ts == 0) {
 			$ts = 42;
-			Log::err_in($net, 'Broken (zero) timestamp on '.$_[3]);
+			Log::warn_in($net, 'Broken (zero) timestamp on '.$_[3]);
 		}
 		my $chan = $net->chan($_[3], $ts);
 		my $applied = ($chan->ts() >= $ts);
@@ -1119,6 +1134,7 @@ $moddef{CORE} = {
 	KNOCK => \&todo,
 
 # Server actions
+	__PANGPANG__ => \&ignore,
 	SERVER => sub {
 		my $net = shift;
 		# :src SERVER name hopcount [numeric] description
@@ -1137,11 +1153,14 @@ $moddef{CORE} = {
 
 		if ($net->auth_should_send) {
 			my $server = $net->cparam('linkname');
+			my $netname = $net->cparam('netname');
 			my $pass = $net->cparam('sendpass');
 			my $num = $net->numeric_for($net);
+			my $systime = time();
 			$rawout[$$net] = "PASS :$pass\r\n".
 				'PROTOCTL NOQUIT TOKEN NICKv2 CLK NICKIP SJOIN SJOIN2 SJ3 VL NS UMODE2 TKLEXT SJB64'.
-				"\r\nSERVER $server 1 :U2309-hX6eE-$num Janus Network Link\r\n".$rawout[$$net];
+				"\r\nSERVER $server 1 :U2309-hX6eE-$num Janus Network Link\r\n".
+				"NETINFO 100 $systime 2309 * 0 0 0 :$netname\r\n".$rawout[$$net];
 		}
 		Log::info_in($net, "Server $_[2] [\@$snum] added from $src");
 		$servers[$$net]{$name} = {
@@ -1160,7 +1179,8 @@ $moddef{CORE} = {
 		my $srv = $net->srvname($_[2]);
 		my $splitfrom = $servers[$$net]{CORE::lc $srv}{parent};
 
-		if (!$splitfrom && $srv =~ /^(.*)\.janus/) {
+		my $rextemp = quotemeta $Janus::laddy;
+		if (!$splitfrom && $srv =~ /^(.*)$rextemp/) {
 			my $ns = $Janus::nets{$1} or return ();
 			$net->send($net->cmd2($net->cparam('linkname'), SERVER => $srv, 2, $net->numeric_for($ns), $ns->netname()));
 			my @out;
@@ -1298,6 +1318,7 @@ $moddef{CORE} = {
 	SAJOIN => \&ignore,
 	SAPART => \&ignore,
 	SILENCE => \&ignore,
+	SMONITOR => \&ignore,
 	SVSJOIN => \&ignore,
 	SVSLUSERS => \&ignore,
 	SVSNOOP => \&ignore,
@@ -1356,7 +1377,7 @@ $moddef{CORE} = {
 		my($net,$act) = @_;
 		my $ij = $act->{net};
 		# don't bother with numerics, no users end up on these servers...
-		$net->cmd2($net->cparam('linkname'), SERVER => $ij->id().'.janus', 2, 0, 'Inter-Janus Link');
+		$net->cmd2($net->cparam('linkname'), SERVER => $ij->id().$Janus::laddy, 2, 0, 'Inter-Janus Link');
 	}, NETLINK => sub {
 		my($net,$act) = @_;
 		my $new = $act->{net};
@@ -1366,14 +1387,14 @@ $moddef{CORE} = {
 			my @out;
 			for my $ij (values %Janus::ijnets) {
 				next unless $ij->is_linked();
-				push @out, $net->cmd2($net->cparam('linkname'), SERVER => $ij->id().'.janus', 2, 0, 'Inter-Janus Link');
+				push @out, $net->cmd2($net->cparam('linkname'), SERVER => $ij->id().$Janus::laddy, 2, 0, 'Inter-Janus Link');
 			}
 			for my $id (keys %Janus::nets) {
 				$new = $Janus::nets{$id};
 				next if $new->isa('Interface') || $new eq $net;
 				my $jl = $new->jlink();
 				if ($jl) {
-					push @out, $net->cmd2($jl->id() . '.janus', SERVER => $new->jname(), 3,
+					push @out, $net->cmd2($jl->id() . $Janus::laddy, SERVER => $new->jname(), 3,
 						$net->numeric_for($new), $new->netname());
 				} else {
 					push @out, $net->cmd2($net->cparam('linkname'), SERVER => $new->jname(), 2,
@@ -1385,7 +1406,7 @@ $moddef{CORE} = {
 			return () if $net->isa('Interface');
 			my $jl = $new->jlink();
 			if ($jl) {
-				$net->cmd2($jl->id() . '.janus', SERVER => $new->jname(), 3, $net->numeric_for($new), $new->netname());
+				$net->cmd2($jl->id() . $Janus::laddy, SERVER => $new->jname(), 3, $net->numeric_for($new), $new->netname());
 			} else {
 				$net->cmd2($net->cparam('linkname'), SERVER => $new->jname(), 2, $net->numeric_for($new), $new->netname());
 			}
@@ -1414,7 +1435,7 @@ $moddef{CORE} = {
 		my $msg = $act->{msg} || 'Excessive Core Radiation';
 		(
 			$net->cmd1(SMO => 'o', "(\002delink\002) InterJanus Network $id has delinked: $msg"),
-			$net->cmd1(SQUIT => "$id.janus", $msg),
+			$net->cmd1(SQUIT => "$id.$Janus::laddy", $msg),
 		);
 	}, CONNECT => sub {
 		my($net,$act) = @_;
@@ -1444,7 +1465,7 @@ $moddef{CORE} = {
 		my($net,$act) = @_;
 		my $chan = $act->{dst};
 		if ($act->{src}->homenet eq $net) {
-			Log::err_in($net, 'Trying to force channel join remotely ('.$act->{src}->gid().$chan->str($net).")");
+			Log::warn_in($net, 'Trying to force channel join remotely ('.$act->{src}->gid().$chan->str($net).")");
 			return ();
 		}
 		my $sj = '';
@@ -1578,7 +1599,8 @@ $moddef{CORE} = {
 		my $pm = '';
 		my $mode = '';
 		my @out;
-		my $visible = Setting::get(oper_visibility => $net);
+		my $visible = $Janus::operlvl;
+		$visible = Setting::get(oper_visibility => $net) if Setting::get(oper_visibility => $net) < $visible;
 		for my $ltxt (@{$act->{mode}}) {
 			my($d,$txt) = $ltxt =~ /([-+])(.+)/ or warn $ltxt;
 			my $um = $net->txt2umode($txt);

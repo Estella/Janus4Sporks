@@ -1,7 +1,7 @@
 # Copyright (C) 2007-2009 Daniel De Graaf
 # Modificiations (C) 2011 - 2012 Brenton Edgar Scott
 # Released under the GNU Affero General Public License v3
-package Server::TS6;
+package Server::TS6_Dakota;
 use Nick;
 use Modes;
 use Util::BaseUID;
@@ -379,7 +379,7 @@ $moddef{CAPAB_SAVE} = {
 
 $moddef{CHARYBDIS} = {
 	cmode => {
-		q => 'l_quiet',
+		Q => 'l_quiet',
 		f => 's_forward',
 		j => 's_joinlimit',
 		P => 'r_permanent',
@@ -445,6 +445,9 @@ $moddef{CORE} = {
 		'm' => 'r_moderated',
 		n => 'r_mustjoin',
 		o => 'n_op',
+		h => 'n_halfop',
+		a => 'n_admin',
+		q => 'n_owner',
 		p => 't1_chanhide',
 		r => 'r_reginvite',
 		's' => 't2_chanhide',

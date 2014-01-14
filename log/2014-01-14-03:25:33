@@ -1,0 +1,103 @@
+[36minfo: Autoconnecting aster[m
+[36minfo: Setting up nonblocking connection to AsterIRC at 127.0.0.1:8009[m
+[35mWARN: Overriding mode o = n_op at xcb451edf/Util/ModularNetwork.pm line 30.
+[m
+[35mWARN: Use of uninitialized value $sep in string eq at x60860333/Server/TS6_Dakota.pm line 68.
+[m
+[36minfo: Accepting incoming connections on 8005[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[1;30mdebug@aster=asterirc:1: Registering #1 as uid 0AJAAAAAA with nick Janus[m
+[36minfo: Link janus? into aster asterirc:1#anti- (2:2 -> 1)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#asterirc (2:4 -> 3)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#beard (2:6 -> 5)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#emi (2:8 -> 7)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[36minfo: Link janus? into aster asterirc:1#jshells (2:10 -> 9)[m
+[1;30mdebug: Replace channel ?[m
+[35mWARN: Use of uninitialized value $name in concatenation (.) or string at 1.10/Channel.pm line 548.
+[m
+[1;30mdebug@aster=asterirc:1: Introducing server services.umbrellix.tk from 42X with numeric 00A[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAC for local nick SpikeTDog #2[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAD for local nick slimeball #3[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAE for local nick Antonio #4[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAB for local nick ALIS #5[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAC for local nick BotServ #6[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAD for local nick ChanServ #7[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAE for local nick GameServ #8[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAF for local nick Global #9[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAG for local nick GroupServ #10[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAH for local nick HelpServ #11[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAI for local nick HostServ #12[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAJ for local nick InfoServ #13[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAK for local nick MemoServ #14[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAL for local nick NickServ #15[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAM for local nick OperServ #16[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAN for local nick RPGServ #17[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAO for local nick SaslServ #18[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAQ for local nick AsterChat #19[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAS for local nick AsterIRC #20[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAR for local nick AsterNET #21[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAU for local nick EmiNET #22[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAT for local nick X #23[m
+[1;30mdebug@aster=asterirc:1: Registering 00AAAAAAP for local nick StatServ #24[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAF for local nick Some1 #25[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAG for local nick strattera #26[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAI for local nick Emi #27[m
+[1;30mdebug@aster=asterirc:1: Registering 42XAAAAAK for local nick j4jackj #28[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at x60860333/Server/TS6_Dakota.pm line 898.
+[m
+[35mWARN: Use of uninitialized value $_ in pattern match (m//) at x60860333/Server/TS6_Dakota.pm line 898.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 759.
+[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 759.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 759.
+[m
+[1;35mjanus: aster:j4jackj help[m
+[35mWARN: Use of uninitialized value $item in lc at 1.10/Commands/Core.pm line 149.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 759.
+[m
+[1;32mAUDIT: aster:j4jackj logged in as admin[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[35mWARN: Use of uninitialized value in integer lt (<) at 1.10/Conffile.pm line 290.
+[m
+[36minfo: Autoconnecting chst[m
+[36minfo: Setting up nonblocking connection to ChatStay at 216.155.142.204:8005[m
+[36minfo: Network chst split: Delink from failed write: Connection refused[m
+[1;30mdebug: Nick deallocation start[m
+[1;30mdebug: Nick deallocation end[m
+[36minfo: Rejecting connection from 66.187.75.250, no matching network definition found[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 756.
+[m
+[35mWARN: Use of uninitialized value $ccode in integer eq (==) at x60860333/Server/TS6_Dakota.pm line 759.
+[m
+[1;35mjanus: aster:j4jackj listmodes[m
